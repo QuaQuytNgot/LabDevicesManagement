@@ -12,21 +12,22 @@ using namespace std;
 
 int main()
 {
-    cout << "WELCOME TO OUR DEVICE MANAGEMENT PRJ!!\n"
-         << "----------------------------------\n"
-         << "If you are new here, please type 'help' for more information\n";
-
-    node *borrow_list;
-    const int MAX_SIZE = 100; // Kích thước tối đa của mảng
+    const int MAX_SIZE = 100; 
     device_info devices[MAX_SIZE];
     string filename = "devices.csv";
     int device_count = read_csv(filename, devices, MAX_SIZE);
     if (device_count == 0)
     {
         cerr << "NO DATA\n"
-             << std::endl;
+             << endl;
         return 1;
     }
+
+    cout << "WELCOME TO OUR DEVICE MANAGEMENT PRJ!!\n"
+         << "----------------------------------\n"
+         << "If you are new here, please type 'help' for more information\n";
+
+    node *borrow_list;
 
     // declare linked list borrower - returner heres
     for (;;)
@@ -93,7 +94,6 @@ int main()
             case 2:
                 print_borrower(borrow_list);
                 // show function
-
                 break;
             case 3:
                 return_device(borrow_list);
