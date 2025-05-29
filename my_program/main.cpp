@@ -12,7 +12,7 @@ using namespace std;
 
 int main()
 {
-    const int MAX_SIZE = 100; 
+    const int MAX_SIZE = 100;
     device_info devices[MAX_SIZE];
     string filename = "devices.csv";
     int device_count = read_csv(filename, devices, MAX_SIZE);
@@ -27,7 +27,7 @@ int main()
          << "----------------------------------\n"
          << "If you are new here, please type 'help' for more information\n";
 
-    node *borrow_list;
+    node *borrow_list = NULL;
 
     // declare linked list borrower - returner heres
     for (;;)
@@ -168,6 +168,22 @@ int main()
                  << "Please enter '1', '2' or '3' for each of above options, respectively!\n";
             int z;
             cin >> z;
+
+            switch (z)
+            {
+            case 1:
+                print_all_devices(devices, device_count);
+                break;
+            case 2:
+                print_single_devices(devices, device_count);
+                break;
+            case 3:
+                cout << "Back to menu successfully!\n";
+                break;
+            default:
+                cout << "Invalid option. Returning to main menu.\n";
+                break;
+            }
             // switch case z
             break;
         // Help:

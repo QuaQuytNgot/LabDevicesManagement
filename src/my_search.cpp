@@ -91,7 +91,7 @@ void search_device_name(device_info a[], int size) {
 
 void search_device_ID(device_info a[], int size) {
     string ID;
-    cout << "Nhập ID thiết bị: ";
+    cout << "Enter device's ID: ";
     cin.ignore();
     getline( cin, ID);
 

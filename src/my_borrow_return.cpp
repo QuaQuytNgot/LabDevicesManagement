@@ -399,27 +399,48 @@ void borrow(node *&borrow_list)
 
 void return_device(node *&borrow_list)
 {
-    while (true)
-    {
-        cout << "----------------------------------\n"
-             << "Enter your name (name you registered to borrow): \n";
-        string s;
-        getline(cin, s);
-        int cnt = 0;
-        node *tmp = borrow_list;
-        while (tmp != NULL)
-        {
-            if (s == tmp->data.name_borrower)
-            {
-                break;
-            }
-            tmp = tmp->next;
-            cnt++;
-        }
-        if (tmp == NULL)
-            return;
-        delete_middle(tmp, cnt + 1);
+    if (borrow_list == NULL) {
+        cout << "No borrowing records found!\n";
+        return;
     }
-    cout << "Return successfullly ^^!!\n";
+    
+    cout << "----------------------------------\n"
+         << "Enter your name (name you registered to borrow): \n";
+    string name;
+    getline(cin, name);
+    
+    // Standardize name
+    borrower temp;
+    temp.name_borrower = name;
+    borrower_standardize(temp);
+    name = temp.name_borrower;
+    
+    // Find and delete the record
+    node *current = borrow_list;
+    node *prev = NULL;
+    bool found = false;
+    
+    while (current != NULL) {
+        if (current->data.name_borrower == name) {
+            // Found the record, delete it
+            if (prev == NULL) {
+                // Deleting first node
+                borrow_list = current->next;
+            } else {
+                prev->next = current->next;
+            }
+            delete current;
+            found = true;
+            cout << "Device returned successfully by " << name << "!\n";
+            break;
+        }
+        prev = current;
+        current = current->next;
+    }
+    
+    if (!found) {
+        cout << "No borrowing record found for: " << name << "\n";
+    }
 }
+
 //fix return function!!
