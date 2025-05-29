@@ -409,22 +409,18 @@ void return_device(node *&borrow_list)
     string name;
     getline(cin, name);
     
-    // Standardize name
     borrower temp;
     temp.name_borrower = name;
     borrower_standardize(temp);
     name = temp.name_borrower;
     
-    // Find and delete the record
     node *current = borrow_list;
     node *prev = NULL;
     bool found = false;
     
     while (current != NULL) {
         if (current->data.name_borrower == name) {
-            // Found the record, delete it
             if (prev == NULL) {
-                // Deleting first node
                 borrow_list = current->next;
             } else {
                 prev->next = current->next;
