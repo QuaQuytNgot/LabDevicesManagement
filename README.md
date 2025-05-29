@@ -1,4 +1,5 @@
-File & function:
+#Lab Devices Management
+##File & function:
 │
 my_program/
 ├── main.cpp
@@ -13,3 +14,10 @@ src/
 ├── my_borrow_return.cpp                   
 ├── utils.cpp                   
 CMakeLists.txt              
+
+##How to run?:
+   ```bash
+   mkdir build && cd build
+   cmake ..
+   make
+   ./my_program
