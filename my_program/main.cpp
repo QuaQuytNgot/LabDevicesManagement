@@ -7,6 +7,7 @@
 #include <my_search.h>
 #include <utils.h>
 #include <device_info.h>
+#include <my_sort.h>
 
 using namespace std;
 
@@ -118,10 +119,10 @@ int main()
             switch (x)
             {
             case 1:
-                // sort by name;
+                sort_by_name(devices, device_count);
                 break;
             case 2:
-                // sort by category;
+                sort_by_category(devices, device_count);
                 break;
             case 3:
                 cout << "Back to menu successfully!\n";
