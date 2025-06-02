@@ -64,7 +64,7 @@ void search_and_print_through_borrower_list(node *borrow_list, string s)
         }
         borrow_list = borrow_list->next;
     }
-    cout << setw(10) << "------" << "Back to menu !!\n";
+    cout << setw(10) << "------" << "Back to menu !!\nType help for more info!\n";
     if (check == false)
     {
         cout << "Your search return nothing!!\n";

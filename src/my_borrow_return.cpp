@@ -109,7 +109,7 @@ void print_borrower(node *head)
             cout << head->data;
             head = head->next;
         }
-        cout << "Return to 'show' option\n";
+        cout << "Return to menu!\nType help for more info!\n";
         break;
     }
     case 2:
@@ -122,12 +122,12 @@ void print_borrower(node *head)
     }
     case 3:
     {
-        cout << "Back to 'show' menu successfully!!\n";
+        cout << "Return to menu!\nType help for more info!\n";
         break;
     }
     default:
-        cout << "Invalid option. Returning to 'show' menu.\n"
-             << "You are in 'show' option!\n";
+        cout << "Invalid option. Returning to 'menu'.\n"
+             << "Return to menu!\nType help for more info!\n";
         break;
     }
 }
@@ -278,6 +278,7 @@ void borrow(node *&borrow_list)
         {
             cout << "Please enter your name:\n";
             getline(cin, b.name_borrower);
+            borrower_standardize(b);
             cout << "Please enter device you want to borrow and its ID:\n";
             getline(cin, b.name_device);
             getline(cin, b.ID);
@@ -302,7 +303,7 @@ void borrow(node *&borrow_list)
             else
             {
                 add_to_node_last(borrow_list, b);
-                cout << "Borrow successfully!! Return to borrow menu\n";
+                cout << "Borrow successfully!! Return to menu\nType help for more info!\n";
                 break;
             }
         }
@@ -314,6 +315,7 @@ void borrow(node *&borrow_list)
         {
             cout << "Please enter your name:\n";
             getline(cin, b.name_borrower);
+            borrower_standardize(b);
             cout << "Please enter device you want to borrow and its ID:\n";
             getline(cin, b.name_device);
             getline(cin, b.ID);
@@ -351,6 +353,7 @@ void borrow(node *&borrow_list)
         {
             cout << "Please enter your name:\n";
             getline(cin, b.name_borrower);
+            borrower_standardize(b);
             cout << "Please enter device you want to borrow and its ID:\n";
             getline(cin, b.name_device);
             getline(cin, b.ID);
@@ -408,18 +411,36 @@ void return_device(node *&borrow_list)
          << "Enter your name (name you registered to borrow): \n";
     string name;
     getline(cin, name);
+
+    if (name.empty()) {
+        cout << "Empty name entered. Please try again.\n";
+        cout << "Return to menu!\nType help for more info!\n";
+        return;
+    }
+    
+    cout << "Enter the name of the device you want to return: \n";
+    string device_name;
+    getline(cin, device_name);
+
+    if (device_name.empty()) {
+        cout << "Empty device name entered. Please try again.\n";
+        cout << "Return to menu!\nType help for more info!\n";
+        return;
+    }
     
     borrower temp;
     temp.name_borrower = name;
+    temp.name_device = device_name;
     borrower_standardize(temp);
     name = temp.name_borrower;
+    device_name = temp.name_device;
     
     node *current = borrow_list;
     node *prev = NULL;
     bool found = false;
     
     while (current != NULL) {
-        if (current->data.name_borrower == name) {
+        if (current->data.name_borrower == name && current->data.name_device == device_name) {
             if (prev == NULL) {
                 borrow_list = current->next;
             } else {
@@ -427,16 +448,16 @@ void return_device(node *&borrow_list)
             }
             delete current;
             found = true;
-            cout << "Device returned successfully by " << name << "!\n";
+            cout << "Device '" << device_name << "' returned successfully by " << name << "!\n";
             break;
         }
         prev = current;
         current = current->next;
     }
+    cout << "Return to menu!\nType help for more info!\n";
     
     if (!found) {
-        cout << "No borrowing record found for: " << name << "\n";
+        cout << "No borrowing record found for: " << name << " with device: " << device_name << "\n";
     }
 }
-
 //fix return function!!

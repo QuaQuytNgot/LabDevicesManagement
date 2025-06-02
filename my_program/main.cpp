@@ -35,6 +35,7 @@ int main()
     {
         string user_choice;
         cin >> user_choice;
+        cin.ignore();
         int choice = 0;
         for (int i = 0; i < user_choice.size(); i++)
         {
@@ -66,6 +67,7 @@ int main()
             int x = 0;
             cout << "Please enter one of these options: 'borrow', 'show', 'return' or 'back'\n";
             cin >> case_1;
+            cin.ignore();
 
             for (int i = 0; i < case_1.size(); i++)
             {
@@ -116,6 +118,7 @@ int main()
                  << "Please enter '1' for sort by name or '2' for sort by category or '3' for back to menu\n";
             int x;
             cin >> x;
+            cin.ignore();
             switch (x)
             {
             case 1:
@@ -141,6 +144,7 @@ int main()
                  << "Please enter '1', '2', '3' or '4' for each of above options, respectively!\n";
             int y;
             cin >> y;
+            cin.ignore();
             switch (y)
             {
             case 1:
@@ -169,7 +173,7 @@ int main()
                  << "Please enter '1', '2' or '3' for each of above options, respectively!\n";
             int z;
             cin >> z;
-
+            cin.ignore();
             switch (z)
             {
             case 1:
