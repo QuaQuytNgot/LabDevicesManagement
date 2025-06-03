@@ -1,23 +1,19 @@
-#Lab Devices Management
-##File & function:
-│
-my_program/
-├── main.cpp
-include/
-├── device_info.h                    
-├── utils.h                   
-├── my_borrow_return.h             
-├── my_print.h           
-src/
-├── device_info.cpp                 
-├── my_print.cpp              
-├── my_borrow_return.cpp                   
-├── utils.cpp                   
-CMakeLists.txt              
+# LabDevicesManagement
 
-##How to run?:
-   ```bash
-   mkdir build && cd build
-   cmake ..
-   make
-   ./my_program
+This is the LabDevicesManagement project.
+
+# Building and installing
+
+See the [BUILDING](BUILDING.md) document.
+
+# Contributing
+
+See the [CONTRIBUTING](CONTRIBUTING.md) document.
+
+# Licensing
+
+<!--
+Please go to https://choosealicense.com/licenses/ and choose a license that
+fits your needs. The recommended license for a project of this type is the
+GNU AGPLv3.
+-->

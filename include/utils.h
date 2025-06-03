@@ -6,5 +6,3 @@
 #pragma once
 
 void print_help();
-void sort_by_name();
-void sort_by_category();
