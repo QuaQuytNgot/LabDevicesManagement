@@ -1,10 +1,10 @@
 #include <cctype>
+#include <cmath>
 #include <fstream>
 #include <iomanip>
 #include <iostream>
 #include <sstream>
 #include <string>
-#include <cmath>
 
 #include "my_search.h"
 
@@ -133,7 +133,7 @@ void search_device_cost(device_info a[], int size)
   for (int i = 0; i < size; i++)
   {
     if (abs(a[i].cost - cost) < EPS)
-    { 
+    {
       cout << "Name: " << a[i].name << ", Date: " << a[i].date
            << ", ID: " << a[i].ID << ", Category: " << a[i].category
            << ", Cost: " << a[i].cost << endl;

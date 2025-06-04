@@ -27,10 +27,12 @@ void name_standardize(device_info &x)
   string       result;
   while (ss >> word)
   {
-    word[0] = static_cast<char>(toupper(static_cast<unsigned char>(word[0])));
+    word[0] = static_cast<char>(
+        toupper(static_cast<unsigned char>(word[0])));
     for (size_t i = 1; i < word.size(); i++)
     {
-      word[i] = static_cast<char>(tolower(static_cast<unsigned char>(word[i])));
+      word[i] = static_cast<char>(
+          tolower(static_cast<unsigned char>(word[i])));
     }
     if (!result.empty())
     {
