@@ -70,74 +70,251 @@
             <dt>
               struct <a href="structborrower.html" class="m-doc">borrower</a>
             </dt>
-            <dd><span></span></dd>
+            <dd>Structure representing borrower information.</dd>
             <dt>
               struct <a href="structnode.html" class="m-doc">node</a>
             </dt>
-            <dd><span></span></dd>
+            <dd>This structure is used for linked list operation.</dd>
           </dl>
         </section>
         <section id="func-members">
           <h2><a href="#func-members">Functions</a></h2>
           <dl class="m-doc">
-            <dt id="a8e752f6b3b182c4c5a4d4613ac44e7fd">
-              <span class="m-doc-wrap-bumper">auto <a href="#a8e752f6b3b182c4c5a4d4613ac44e7fd" class="m-doc-self">operator&lt;&lt;</a>(</span><span class="m-doc-wrap">std::ostream&amp; out,
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a8e752f6b3b182c4c5a4d4613ac44e7fd" class="m-doc">operator&lt;&lt;</a>(</span><span class="m-doc-wrap">std::ostream&amp; out,
               const <a href="structborrower.html" class="m-doc">borrower</a>&amp; x) -&gt; std::ostream&amp;</span>
             </dt>
-            <dd><span></span></dd>
-            <dt id="a38bebdfccdc3221c4951040a93fe1fad">
-              <span class="m-doc-wrap-bumper">auto <a href="#a38bebdfccdc3221c4951040a93fe1fad" class="m-doc-self">makenode</a>(</span><span class="m-doc-wrap"><a href="structborrower.html" class="m-doc">borrower</a> x) -&gt; <a href="structnode.html" class="m-doc">node</a>*</span>
+            <dd>Operator Overloading &quot;&lt;&lt;&quot;<br /></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a38bebdfccdc3221c4951040a93fe1fad" class="m-doc">makenode</a>(</span><span class="m-doc-wrap"><a href="structborrower.html" class="m-doc">borrower</a> x) -&gt; <a href="structnode.html" class="m-doc">node</a>*</span>
             </dt>
-            <dd><span></span></dd>
-            <dt id="a3cd9dd3d4f0bd53fe9cde043e2dda526">
-              <span class="m-doc-wrap-bumper">void <a href="#a3cd9dd3d4f0bd53fe9cde043e2dda526" class="m-doc-self">add_to_node_first</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; head,
+            <dd>Make a node<br /></dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">void <a href="#a3cd9dd3d4f0bd53fe9cde043e2dda526" class="m-doc">add_to_node_first</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; head,
               <a href="structborrower.html" class="m-doc">borrower</a> x)</span>
             </dt>
-            <dd><span></span></dd>
-            <dt id="a901b2416907775216cb170b2196e32ed">
-              <span class="m-doc-wrap-bumper">void <a href="#a901b2416907775216cb170b2196e32ed" class="m-doc-self">print_borrower</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>* head)</span>
+            <dd>Add into first.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">void <a href="#a901b2416907775216cb170b2196e32ed" class="m-doc">print_borrower</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>* head)</span>
             </dt>
-            <dd><span></span></dd>
-            <dt id="a7450464dd2ae3b4a4117d797edd537e4">
-              <span class="m-doc-wrap-bumper">auto <a href="#a7450464dd2ae3b4a4117d797edd537e4" class="m-doc-self">count_node</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>* head) -&gt; int</span>
+            <dd>Print linked list.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a7450464dd2ae3b4a4117d797edd537e4" class="m-doc">count_node</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>* head) -&gt; int</span>
             </dt>
-            <dd><span></span></dd>
-            <dt id="aeb9bd7c552cb6403cf19bad5a8e8cecd">
-              <span class="m-doc-wrap-bumper">void <a href="#aeb9bd7c552cb6403cf19bad5a8e8cecd" class="m-doc-self">add_to_node_last</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; head,
+            <dd>Count linked list.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">void <a href="#aeb9bd7c552cb6403cf19bad5a8e8cecd" class="m-doc">add_to_node_last</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; head,
               <a href="structborrower.html" class="m-doc">borrower</a> x)</span>
             </dt>
-            <dd><span></span></dd>
-            <dt id="a4ca21dbf723928165c00aee77e854153">
-              <span class="m-doc-wrap-bumper">void <a href="#a4ca21dbf723928165c00aee77e854153" class="m-doc-self">add_to_node_middle</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; head,
+            <dd>Add into last.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">void <a href="#a4ca21dbf723928165c00aee77e854153" class="m-doc">add_to_node_middle</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; head,
               <a href="structborrower.html" class="m-doc">borrower</a> x)</span>
             </dt>
-            <dd><span></span></dd>
-            <dt id="aff236dcf174d8ea950d38d1ad2b5f94d">
-              <span class="m-doc-wrap-bumper">void <a href="#aff236dcf174d8ea950d38d1ad2b5f94d" class="m-doc-self">delete_first</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; head)</span>
+            <dd>Add into middle.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">void <a href="#aff236dcf174d8ea950d38d1ad2b5f94d" class="m-doc">delete_first</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; head)</span>
             </dt>
-            <dd><span></span></dd>
-            <dt id="af05599559e68d67b1923e6048c522dad">
-              <span class="m-doc-wrap-bumper">void <a href="#af05599559e68d67b1923e6048c522dad" class="m-doc-self">delete_middle</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; head)</span>
+            <dd>Delete the first node.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">void <a href="#af05599559e68d67b1923e6048c522dad" class="m-doc">delete_middle</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; head)</span>
             </dt>
-            <dd><span></span></dd>
-            <dt id="a8f51ed7758caa6ce5eaafef3fe503d61">
-              <span class="m-doc-wrap-bumper">void <a href="#a8f51ed7758caa6ce5eaafef3fe503d61" class="m-doc-self">delete_last</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; head)</span>
+            <dd>Delete the middle node.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">void <a href="#a8f51ed7758caa6ce5eaafef3fe503d61" class="m-doc">delete_last</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; head)</span>
             </dt>
-            <dd><span></span></dd>
-            <dt id="a514b8405f353de931f8838b548d0e55b">
-              <span class="m-doc-wrap-bumper">auto <a href="#a514b8405f353de931f8838b548d0e55b" class="m-doc-self">addDays</a>(</span><span class="m-doc-wrap">const std::string&amp; date_str,
+            <dd>Delete the last node.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">auto <a href="#a514b8405f353de931f8838b548d0e55b" class="m-doc">addDays</a>(</span><span class="m-doc-wrap">const std::string&amp; date_str,
               int days_to_add) -&gt; std::string</span>
             </dt>
-            <dd><span></span></dd>
-            <dt id="aa934b69da9234204cabb5bbe89adf85c">
-              <span class="m-doc-wrap-bumper">void <a href="#aa934b69da9234204cabb5bbe89adf85c" class="m-doc-self">borrow</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; borrow_list)</span>
+            <dd>Add day.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">void <a href="#aa934b69da9234204cabb5bbe89adf85c" class="m-doc">borrow</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; borrow_list)</span>
             </dt>
-            <dd><span></span></dd>
-            <dt id="af32cf5ecdc3cea82f49308c9210ce365">
-              <span class="m-doc-wrap-bumper">void <a href="#af32cf5ecdc3cea82f49308c9210ce365" class="m-doc-self">return_device</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; borrow_list)</span>
+            <dd>Borrow devices.</dd>
+            <dt>
+              <span class="m-doc-wrap-bumper">void <a href="#af32cf5ecdc3cea82f49308c9210ce365" class="m-doc">return_device</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; borrow_list)</span>
             </dt>
-            <dd><span></span></dd>
+            <dd>Return devices.</dd>
           </dl>
+        </section>
+        <section>
+          <h2>Function documentation</h2>
+          <section class="m-doc-details" id="a8e752f6b3b182c4c5a4d4613ac44e7fd"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">std::ostream&amp; </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a8e752f6b3b182c4c5a4d4613ac44e7fd" class="m-doc-self">operator&lt;&lt;</a>(</span><span class="m-doc-wrap">std::ostream&amp; out,
+              const <a href="structborrower.html" class="m-doc">borrower</a>&amp; x)</span></span>
+            </h3>
+            <p>Operator Overloading &quot;&lt;&lt;&quot;<br /></p>
+<p>Dev can print the struct&#x27;s information by using &quot;cout &lt;&lt;&quot;</p>
+          </div></section>
+          <section class="m-doc-details" id="a38bebdfccdc3221c4951040a93fe1fad"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper"><a href="structnode.html" class="m-doc">node</a>* </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a38bebdfccdc3221c4951040a93fe1fad" class="m-doc-self">makenode</a>(</span><span class="m-doc-wrap"><a href="structborrower.html" class="m-doc">borrower</a> x)</span></span>
+            </h3>
+            <p>Make a node<br /></p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">x</td>
+                  <td>parameter type struct borrower</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Returns</th>
+                  <td>node*</td>
+                </tr>
+              </tfoot>
+            </table>
+<p>Init a node by dynamic memory allocation for data x</p>
+          </div></section>
+          <section class="m-doc-details" id="a3cd9dd3d4f0bd53fe9cde043e2dda526"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">void </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a3cd9dd3d4f0bd53fe9cde043e2dda526" class="m-doc-self">add_to_node_first</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; head,
+              <a href="structborrower.html" class="m-doc">borrower</a> x)</span></span>
+            </h3>
+            <p>Add into first.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">head</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>x</td>
+                  <td>parameter type struct borrower, default linked list</td>
+                </tr>
+              </tbody>
+            </table>
+<p>Add a node to the beggining of the linked list</p>
+          </div></section>
+          <section class="m-doc-details" id="a901b2416907775216cb170b2196e32ed"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">void </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a901b2416907775216cb170b2196e32ed" class="m-doc-self">print_borrower</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>* head)</span></span>
+            </h3>
+            <p>Print linked list.</p>
+<p>Iterate through linked list and print every single node</p>
+          </div></section>
+          <section class="m-doc-details" id="a7450464dd2ae3b4a4117d797edd537e4"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">int </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a7450464dd2ae3b4a4117d797edd537e4" class="m-doc-self">count_node</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>* head)</span></span>
+            </h3>
+            <p>Count linked list.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <tfoot>
+                <tr>
+                  <th style="width: 1%">Returns</th>
+                  <td>Length of linked list</td>
+                </tr>
+              </tfoot>
+            </table>
+<p>Iterate through linked list and return length of linked list</p>
+          </div></section>
+          <section class="m-doc-details" id="aeb9bd7c552cb6403cf19bad5a8e8cecd"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">void </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aeb9bd7c552cb6403cf19bad5a8e8cecd" class="m-doc-self">add_to_node_last</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; head,
+              <a href="structborrower.html" class="m-doc">borrower</a> x)</span></span>
+            </h3>
+            <p>Add into last.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">head</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>x</td>
+                  <td>parameter type struct borrower, default linked list</td>
+                </tr>
+              </tbody>
+            </table>
+<p>Add a node to the last of the linked list</p>
+          </div></section>
+          <section class="m-doc-details" id="a4ca21dbf723928165c00aee77e854153"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">void </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a4ca21dbf723928165c00aee77e854153" class="m-doc-self">add_to_node_middle</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; head,
+              <a href="structborrower.html" class="m-doc">borrower</a> x)</span></span>
+            </h3>
+            <p>Add into middle.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <thead>
+                <tr><th colspan="2">Parameters</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="width: 1%">head</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>x</td>
+                  <td>parameter type struct borrower, default linked list</td>
+                </tr>
+              </tbody>
+            </table>
+<p>Add a node to the middle of the linked list</p>
+          </div></section>
+          <section class="m-doc-details" id="aff236dcf174d8ea950d38d1ad2b5f94d"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">void </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aff236dcf174d8ea950d38d1ad2b5f94d" class="m-doc-self">delete_first</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; head)</span></span>
+            </h3>
+            <p>Delete the first node.</p>
+<p>Delete the first node of the linked list</p>
+          </div></section>
+          <section class="m-doc-details" id="af05599559e68d67b1923e6048c522dad"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">void </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#af05599559e68d67b1923e6048c522dad" class="m-doc-self">delete_middle</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; head)</span></span>
+            </h3>
+            <p>Delete the middle node.</p>
+<p>Delete the middle node of the linked list</p>
+          </div></section>
+          <section class="m-doc-details" id="a8f51ed7758caa6ce5eaafef3fe503d61"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">void </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a8f51ed7758caa6ce5eaafef3fe503d61" class="m-doc-self">delete_last</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; head)</span></span>
+            </h3>
+            <p>Delete the last node.</p>
+<p>Delete the last node of the linked list</p>
+          </div></section>
+          <section class="m-doc-details" id="a514b8405f353de931f8838b548d0e55b"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">std::string </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a514b8405f353de931f8838b548d0e55b" class="m-doc-self">addDays</a>(</span><span class="m-doc-wrap">const std::string&amp; date_str,
+              int days_to_add)</span></span>
+            </h3>
+            <p>Add day.</p>
+            <table class="m-table m-fullwidth m-flat">
+              <tfoot>
+                <tr>
+                  <th style="width: 1%">Returns</th>
+                  <td>string</td>
+                </tr>
+              </tfoot>
+            </table>
+<p>Add day from a beginning day in format xx/xx/xxxx</p>
+          </div></section>
+          <section class="m-doc-details" id="aa934b69da9234204cabb5bbe89adf85c"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">void </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#aa934b69da9234204cabb5bbe89adf85c" class="m-doc-self">borrow</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; borrow_list)</span></span>
+            </h3>
+            <p>Borrow devices.</p>
+<p>Allow user to enter information to rent a device and add their info to the last of the linked list</p>
+          </div></section>
+          <section class="m-doc-details" id="af32cf5ecdc3cea82f49308c9210ce365"><div>
+            <h3>
+              <span class="m-doc-wrap-bumper">void </span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#af32cf5ecdc3cea82f49308c9210ce365" class="m-doc-self">return_device</a>(</span><span class="m-doc-wrap"><a href="structnode.html" class="m-doc">node</a>*&amp; borrow_list)</span></span>
+            </h3>
+            <p>Return devices.</p>
+<p>Allow user to enter information to rent a device and delete their info as the node in the linked list</p>
+          </div></section>
         </section>
       </div>
     </div>
