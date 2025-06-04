@@ -1,0 +1,9 @@
+CI:
+	Lint: clang-tidy-18
+	Coverage: 
+	Sanitize: such as memory leak, undefined behaviour
+	Test on OS: Windows 2022, Ubuntu 22.04
+Others:
+	Sort devices in .csv file by name, category
+	Search devices in .csv file by name, category, ID
+	

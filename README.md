@@ -6,9 +6,20 @@ This is the LabDevicesManagement project.
 
 See the [BUILDING](BUILDING.md) document.
 
+After building, run
+
+```sh
+cd build/
+./LabDevicesManagement
+```
+
 # Contributing
 
 See the [CONTRIBUTING](CONTRIBUTING.md) document.
+
+# Test case
+
+See the [TESTCASE](TESTCASE.txt) document.
 
 # Licensing
 
