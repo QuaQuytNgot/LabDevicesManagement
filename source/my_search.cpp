@@ -4,9 +4,11 @@
 #include <iostream>
 #include <sstream>
 #include <string>
+#include <cmath>
 
 #include "my_search.h"
 
+const double EPS = 1e-6;
 using namespace std;
 
 int read_csv(const string &filename,
@@ -16,7 +18,7 @@ int read_csv(const string &filename,
   ifstream file(filename);
   if (!file.is_open())
   {
-    cerr << "Không thể mở file: " << filename << endl;
+    cerr << "Can not open file: " << filename << endl;
     return 0;
   }
 
@@ -75,7 +77,7 @@ void search_and_print_through_borrower_list(node  *borrow_list,
 void search_device_name(device_info a[], int size)
 {
   string name;
-  cout << "Nhập tên thiết bị: ";
+  cout << "Enter device's name: ";
   cin.ignore();
   getline(cin, name);
 
@@ -130,8 +132,8 @@ void search_device_cost(device_info a[], int size)
   bool found = false;
   for (int i = 0; i < size; i++)
   {
-    if (a[i].cost == cost)
-    {
+    if (abs(a[i].cost - cost) < EPS)
+    { 
       cout << "Name: " << a[i].name << ", Date: " << a[i].date
            << ", ID: " << a[i].ID << ", Category: " << a[i].category
            << ", Cost: " << a[i].cost << endl;

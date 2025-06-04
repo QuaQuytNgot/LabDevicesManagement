@@ -13,7 +13,7 @@ string to_lower(const string &str)
   string result = str;
   for (char &c : result)
   {
-    c = tolower(c);
+    c = static_cast<char>(tolower(static_cast<unsigned char>(c)));
   }
   return result;
 }

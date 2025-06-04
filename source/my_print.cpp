@@ -60,7 +60,7 @@ void print_single_devices(device_info a[], int size)
   string search_lower = search_term;
   for (char &c : search_lower)
   {
-    c = tolower(c);
+    c = static_cast<char>(tolower(static_cast<unsigned char>(c)));
   }
 
   bool found = false;
@@ -75,11 +75,11 @@ void print_single_devices(device_info a[], int size)
     string device_id_lower   = a[i].ID;
     for (char &c : device_name_lower)
     {
-      c = tolower(c);
+      c = static_cast<char>(tolower(static_cast<unsigned char>(c)));
     }
     for (char &c : device_id_lower)
     {
-      c = tolower(c);
+      c = static_cast<char>(tolower(static_cast<unsigned char>(c)));
     }
 
     // Check if search term matches name or ID (case insensitive)
