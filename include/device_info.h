@@ -4,13 +4,15 @@
 // #endif
 #pragma once
 #include <string>
-
-using namespace std;
+#include <stddef.h>
 
 struct device_info
 {
-  string name, date, ID, category;
-  double cost;
+    std::string name;
+    std::string date;
+    std::string ID;
+    std::string category;
+    double cost;
 };
 
 void date_standardize(device_info& x);

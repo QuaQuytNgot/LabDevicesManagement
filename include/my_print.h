@@ -3,7 +3,6 @@
 
 #include "device_info.h"
 
-using namespace std;
 
 void print_all_devices(device_info a[], int size);
 

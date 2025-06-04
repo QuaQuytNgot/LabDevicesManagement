@@ -45,11 +45,14 @@ void borrower_standardize(borrower &x)
   string       result;
   while (ss >> word)
   {
-    word[0] = toupper(word[0]);
-    for (int i = 1; i < word.size(); i++)
+    word[0] = static_cast<char>(
+        toupper(static_cast<unsigned char>(word[0])));
+    for (size_t i = 1; i < word.size(); ++i)
     {
-      word[i] = tolower(word[i]);
+      word[i] = static_cast<char>(
+          tolower(static_cast<unsigned char>(word[i])));
     }
+
     if (!result.empty())
     {
       result += " ";
@@ -239,7 +242,6 @@ string addDays(const string &date_str, int days_to_add)
 {
   struct tm     tm_date = {};
   istringstream ss(date_str);
-
   ss >> get_time(&tm_date, "%d/%m/%Y");
 
   if (ss.fail())
@@ -249,13 +251,18 @@ string addDays(const string &date_str, int days_to_add)
   }
 
   time_t time_date = mktime(&tm_date);
-
   time_date += days_to_add * 24 * 60 * 60;
 
-  struct tm    *new_tm = localtime(&time_date);
+  struct tm new_tm;
+
+#ifdef _WIN32
+  localtime_s(&new_tm, &time_date); // Windows
+#else
+  localtime_r(&time_date, &new_tm); // Linux/Unix
+#endif
 
   ostringstream result;
-  result << put_time(new_tm, "%d/%m/%Y");
+  result << put_time(&new_tm, "%d/%m/%Y");
   return result.str();
 }
 
