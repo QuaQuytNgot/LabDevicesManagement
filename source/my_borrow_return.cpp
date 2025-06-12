@@ -369,7 +369,6 @@ void borrow(node *&borrow_list)
   }
   case 30:
   {
-    cout << "You can refuse to enter in by enter 'refuse' ^^!\n";
     while (true)
     {
       cout << "Please enter your name:\n";
@@ -481,7 +480,7 @@ void return_device(node *&borrow_list)
       }
       delete current;
       found = true;
-      cout << "Device '" << device_name
+      cout << "Device " << device_name
            << "' returned successfully by " << name << "!\n";
       break;
     }
@@ -496,5 +495,3 @@ void return_device(node *&borrow_list)
          << " with device: " << device_name << "\n";
   }
 }
-
-// fix return function!!

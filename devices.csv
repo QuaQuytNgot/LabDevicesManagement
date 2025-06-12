@@ -1,21 +1,1001 @@
 name,date,ID,category,cost
-Hot Plate,2024-01-19,HOT100,Heating,7481.16
-Hot Plate,2023-10-13,HOT101,Heating,8188.18
-Microscope,2024-12-19,MIC102,Optical,6294.61
-Centrifuge,2025-03-19,CEN103,Mechanical,3554.39
-Microscope,2024-11-18,MIC104,Optical,2260.90
-Centrifuge,2023-09-06,CEN105,Mechanical,7292.41
-Centrifuge,2024-08-30,CEN106,Mechanical,9488.03
-Hot Plate,2024-06-17,HOT107,Heating,4379.44
-Spectrometer,2023-08-18,SPE108,Electronic,9440.01
-Burette,2024-08-14,BUR109,Optical,2196.94
-Pipette,2024-05-31,PIP110,Manual,1465.15
-Centrifuge,2024-06-10,CEN111,Mechanical,7147.75
-Centrifuge,2023-05-29,CEN112,Mechanical,378.86
-Centrifuge,2023-07-23,CEN113,Mechanical,8783.81
-Pipette,2023-07-26,PIP114,Manual,7238.81
-Spectrometer,2023-07-03,SPE115,Electronic,7506.31
-Centrifuge,2024-01-19,CEN116,Mechanical,2257.86
-Spectrometer,2024-04-22,SPE117,Electronic,5213.19
-Burette,2023-07-12,BUR118,Optical,745.92
-Pipette,2024-04-05,PIP119,Manual,7272.83
+Hot Plate,2024-07-16,HOT198,Heating,9408.5
+Burette,2023-05-16,BUR604,Optical,457.2
+Microscope,2023-05-17,MIC464,Optical,4792.16
+Hot Plate,2023-05-09,HOT785,Heating,3797.0
+Pipette,2024-10-22,PIP859,Manual,5234.22
+Burette,2025-01-13,BUR771,Optical,5582.35
+Centrifuge,2024-11-30,CEN772,Mechanical,2269.58
+Hot Plate,2024-02-17,HOT920,Heating,8619.61
+Hot Plate,2023-12-08,HOT971,Heating,9681.22
+Pipette,2024-02-22,PIP242,Manual,6324.75
+Centrifuge,2024-06-29,CEN677,Mechanical,9724.63
+Pipette,2023-08-14,PIP302,Manual,9020.68
+Pipette,2023-12-18,PIP122,Manual,8751.41
+Microscope,2023-07-26,MIC749,Optical,3506.83
+Microscope,2023-11-01,MIC994,Optical,9293.39
+Microscope,2025-03-23,MIC899,Optical,7845.61
+Centrifuge,2025-02-15,CEN183,Mechanical,2965.06
+Microscope,2024-08-27,MIC743,Optical,6877.88
+Microscope,2025-03-01,MIC483,Optical,4215.06
+Pipette,2024-04-28,PIP655,Manual,8318.39
+Spectrometer,2025-02-05,SPE433,Electronic,6889.97
+Burette,2023-10-20,BUR655,Optical,317.69
+Burette,2024-08-23,BUR231,Optical,1697.14
+Hot Plate,2023-07-14,HOT502,Heating,1398.99
+Hot Plate,2023-09-15,HOT848,Heating,4711.8
+Spectrometer,2024-07-13,SPE949,Electronic,184.3
+Pipette,2025-03-02,PIP264,Manual,6034.93
+Microscope,2024-07-31,MIC623,Optical,5909.9
+Hot Plate,2024-06-21,HOT556,Heating,8153.83
+Spectrometer,2024-12-27,SPE337,Electronic,8413.73
+Hot Plate,2024-05-26,HOT628,Heating,2041.5
+Microscope,2023-05-12,MIC331,Optical,3420.13
+Burette,2024-11-02,BUR845,Optical,5201.47
+Pipette,2024-11-10,PIP676,Manual,3325.73
+Pipette,2024-01-25,PIP325,Manual,6853.26
+Centrifuge,2023-05-26,CEN247,Mechanical,4027.48
+Pipette,2024-11-10,PIP937,Manual,8800.79
+Microscope,2023-06-24,MIC408,Optical,2928.53
+Hot Plate,2023-11-08,HOT367,Heating,1225.79
+Burette,2023-08-02,BUR452,Optical,842.11
+Hot Plate,2024-01-17,HOT588,Heating,7015.33
+Centrifuge,2024-08-31,CEN507,Mechanical,7470.0
+Pipette,2024-09-25,PIP542,Manual,7235.02
+Hot Plate,2024-12-06,HOT946,Heating,9812.67
+Burette,2023-05-24,BUR828,Optical,3304.26
+Microscope,2025-03-18,MIC171,Optical,2698.72
+Hot Plate,2023-05-04,HOT110,Heating,908.54
+Hot Plate,2024-04-26,HOT623,Heating,2479.86
+Spectrometer,2023-09-19,SPE451,Electronic,4333.93
+Pipette,2024-08-25,PIP867,Manual,305.58
+Centrifuge,2024-03-23,CEN149,Mechanical,4355.18
+Spectrometer,2024-05-07,SPE699,Electronic,149.78
+Pipette,2023-05-04,PIP566,Manual,5792.22
+Microscope,2024-07-29,MIC857,Optical,5348.65
+Burette,2024-05-05,BUR469,Optical,3671.11
+Pipette,2024-10-10,PIP217,Manual,1825.29
+Spectrometer,2023-10-17,SPE578,Electronic,7419.32
+Hot Plate,2023-08-07,HOT667,Heating,1040.73
+Spectrometer,2025-02-02,SPE229,Electronic,3026.68
+Centrifuge,2023-05-02,CEN238,Mechanical,2274.44
+Burette,2023-06-22,BUR559,Optical,763.84
+Pipette,2024-11-10,PIP393,Manual,1946.22
+Centrifuge,2025-03-22,CEN339,Mechanical,8373.84
+Burette,2023-05-05,BUR557,Optical,8326.09
+Pipette,2023-11-28,PIP750,Manual,7111.29
+Microscope,2023-07-12,MIC351,Optical,926.02
+Spectrometer,2025-01-07,SPE270,Electronic,6808.08
+Spectrometer,2024-06-01,SPE825,Electronic,9714.65
+Burette,2023-07-27,BUR330,Optical,6393.35
+Hot Plate,2024-03-03,HOT719,Heating,4036.3
+Microscope,2023-10-12,MIC509,Optical,2426.69
+Burette,2025-01-24,BUR798,Optical,8946.12
+Microscope,2024-07-25,MIC660,Optical,1906.21
+Hot Plate,2023-10-16,HOT648,Heating,7928.24
+Spectrometer,2024-08-21,SPE876,Electronic,7814.3
+Hot Plate,2024-07-18,HOT887,Heating,1756.49
+Hot Plate,2023-11-15,HOT829,Heating,2827.28
+Microscope,2024-08-02,MIC378,Optical,255.34
+Hot Plate,2024-06-16,HOT927,Heating,4881.58
+Spectrometer,2023-06-05,SPE465,Electronic,1656.29
+Hot Plate,2023-11-11,HOT813,Heating,4888.8
+Pipette,2024-11-03,PIP141,Manual,4903.6
+Hot Plate,2023-10-17,HOT374,Heating,8880.34
+Hot Plate,2024-11-14,HOT230,Heating,5493.75
+Microscope,2024-11-20,MIC510,Optical,141.03
+Centrifuge,2024-09-11,CEN604,Mechanical,6508.72
+Centrifuge,2024-08-22,CEN895,Mechanical,3424.52
+Burette,2023-08-07,BUR837,Optical,6334.05
+Pipette,2024-10-15,PIP821,Manual,8949.97
+Burette,2024-08-22,BUR947,Optical,9352.12
+Burette,2023-12-29,BUR648,Optical,8615.86
+Microscope,2023-09-12,MIC741,Optical,4230.64
+Pipette,2025-02-23,PIP469,Manual,8453.12
+Pipette,2024-01-16,PIP293,Manual,6891.38
+Pipette,2025-01-27,PIP539,Manual,9495.58
+Burette,2025-03-13,BUR757,Optical,1568.54
+Pipette,2025-01-10,PIP947,Manual,5681.17
+Hot Plate,2024-01-04,HOT552,Heating,8717.03
+Burette,2024-10-27,BUR670,Optical,5572.47
+Pipette,2023-07-30,PIP488,Manual,9642.09
+Centrifuge,2023-11-30,CEN642,Mechanical,3680.84
+Pipette,2023-09-03,PIP649,Manual,656.68
+Burette,2023-11-05,BUR763,Optical,8665.0
+Centrifuge,2024-10-04,CEN261,Mechanical,3393.68
+Spectrometer,2024-11-08,SPE561,Electronic,3480.21
+Microscope,2024-04-04,MIC223,Optical,8756.23
+Burette,2024-11-22,BUR284,Optical,7934.31
+Burette,2024-06-10,BUR655,Optical,6908.59
+Hot Plate,2023-06-26,HOT677,Heating,4525.08
+Burette,2025-03-04,BUR331,Optical,5141.32
+Microscope,2023-08-12,MIC390,Optical,6289.79
+Spectrometer,2025-01-29,SPE946,Electronic,6871.46
+Hot Plate,2024-10-14,HOT996,Heating,2546.89
+Spectrometer,2023-07-15,SPE536,Electronic,1519.01
+Spectrometer,2023-09-16,SPE376,Electronic,4103.56
+Spectrometer,2024-09-08,SPE175,Electronic,3558.04
+Hot Plate,2023-09-03,HOT770,Heating,4046.24
+Microscope,2023-10-09,MIC884,Optical,2629.88
+Hot Plate,2023-06-10,HOT396,Heating,9082.51
+Centrifuge,2023-07-31,CEN988,Mechanical,585.08
+Centrifuge,2023-09-24,CEN764,Mechanical,2203.4
+Burette,2024-03-09,BUR420,Optical,9838.78
+Microscope,2024-05-26,MIC502,Optical,6940.29
+Centrifuge,2023-07-28,CEN471,Mechanical,2509.3
+Hot Plate,2024-12-19,HOT162,Heating,9894.67
+Centrifuge,2025-01-09,CEN602,Mechanical,9851.99
+Spectrometer,2024-12-27,SPE667,Electronic,7571.0
+Burette,2024-02-23,BUR919,Optical,4268.27
+Pipette,2025-03-12,PIP230,Manual,4605.0
+Burette,2024-02-23,BUR169,Optical,170.96
+Microscope,2023-10-17,MIC611,Optical,7193.8
+Centrifuge,2024-12-12,CEN702,Mechanical,723.75
+Centrifuge,2024-01-07,CEN711,Mechanical,2099.91
+Centrifuge,2024-11-03,CEN160,Mechanical,7336.71
+Pipette,2024-04-25,PIP363,Manual,8067.84
+Centrifuge,2024-09-10,CEN785,Mechanical,4820.04
+Microscope,2024-04-28,MIC152,Optical,9823.46
+Centrifuge,2023-11-23,CEN472,Mechanical,2084.64
+Microscope,2023-06-06,MIC332,Optical,2932.25
+Centrifuge,2023-08-27,CEN265,Mechanical,4180.51
+Spectrometer,2023-10-15,SPE565,Electronic,1603.14
+Spectrometer,2025-01-16,SPE562,Electronic,1069.25
+Burette,2023-10-12,BUR481,Optical,1850.7
+Hot Plate,2024-12-30,HOT825,Heating,2189.35
+Centrifuge,2024-10-06,CEN417,Mechanical,1163.72
+Burette,2024-07-10,BUR575,Optical,9157.37
+Hot Plate,2024-12-25,HOT323,Heating,5511.92
+Hot Plate,2023-06-20,HOT186,Heating,7050.48
+Pipette,2025-01-15,PIP766,Manual,6256.92
+Centrifuge,2024-11-28,CEN206,Mechanical,3096.25
+Spectrometer,2025-03-16,SPE456,Electronic,7534.45
+Burette,2023-08-27,BUR138,Optical,5248.9
+Spectrometer,2023-10-05,SPE484,Electronic,3743.05
+Hot Plate,2023-12-06,HOT490,Heating,9407.69
+Spectrometer,2023-12-07,SPE795,Electronic,5531.2
+Centrifuge,2023-06-26,CEN313,Mechanical,8168.09
+Burette,2024-03-04,BUR196,Optical,9253.02
+Microscope,2024-05-26,MIC499,Optical,3056.54
+Pipette,2023-06-13,PIP340,Manual,5937.74
+Centrifuge,2025-02-04,CEN462,Mechanical,7637.91
+Centrifuge,2024-03-14,CEN168,Mechanical,4223.0
+Spectrometer,2024-02-22,SPE929,Electronic,1117.47
+Pipette,2023-05-16,PIP341,Manual,2511.94
+Pipette,2024-01-02,PIP449,Manual,1596.05
+Microscope,2023-07-12,MIC788,Optical,586.98
+Hot Plate,2023-11-04,HOT461,Heating,7073.97
+Hot Plate,2023-08-23,HOT850,Heating,2550.95
+Microscope,2024-05-12,MIC610,Optical,2980.0
+Spectrometer,2024-09-30,SPE480,Electronic,2043.71
+Hot Plate,2023-07-29,HOT131,Heating,7181.3
+Burette,2023-09-29,BUR245,Optical,7873.45
+Centrifuge,2025-03-31,CEN190,Mechanical,4582.04
+Spectrometer,2024-05-08,SPE368,Electronic,2884.43
+Microscope,2025-03-13,MIC174,Optical,9600.06
+Burette,2023-11-22,BUR692,Optical,5051.34
+Microscope,2024-03-06,MIC670,Optical,3763.49
+Microscope,2023-09-15,MIC292,Optical,6486.63
+Microscope,2023-10-26,MIC631,Optical,4823.28
+Spectrometer,2023-10-02,SPE200,Electronic,4367.77
+Pipette,2024-07-01,PIP235,Manual,8598.48
+Spectrometer,2024-02-27,SPE338,Electronic,9233.96
+Centrifuge,2025-01-24,CEN352,Mechanical,3769.27
+Burette,2023-12-18,BUR566,Optical,7653.77
+Centrifuge,2023-08-24,CEN758,Mechanical,4346.83
+Hot Plate,2024-04-01,HOT366,Heating,9425.67
+Microscope,2024-11-17,MIC687,Optical,6692.07
+Pipette,2024-06-02,PIP755,Manual,5524.84
+Centrifuge,2023-07-07,CEN841,Mechanical,9963.46
+Burette,2024-05-07,BUR146,Optical,6186.71
+Centrifuge,2025-03-01,CEN554,Mechanical,1537.32
+Centrifuge,2023-06-03,CEN793,Mechanical,4588.11
+Pipette,2023-05-07,PIP149,Manual,7329.56
+Hot Plate,2024-03-03,HOT516,Heating,2274.85
+Hot Plate,2023-12-25,HOT127,Heating,262.26
+Centrifuge,2023-09-25,CEN629,Mechanical,447.1
+Hot Plate,2024-01-18,HOT679,Heating,1285.36
+Burette,2024-07-13,BUR216,Optical,5032.84
+Burette,2024-09-06,BUR345,Optical,229.91
+Hot Plate,2025-01-23,HOT839,Heating,1201.22
+Spectrometer,2023-08-02,SPE460,Electronic,1836.35
+Hot Plate,2023-05-25,HOT481,Heating,3058.11
+Spectrometer,2024-09-04,SPE401,Electronic,8307.07
+Spectrometer,2023-12-18,SPE223,Electronic,2093.43
+Centrifuge,2023-11-30,CEN383,Mechanical,7383.06
+Pipette,2024-12-20,PIP497,Manual,4276.52
+Pipette,2023-07-03,PIP751,Manual,3331.04
+Microscope,2024-09-19,MIC136,Optical,1384.99
+Microscope,2023-12-09,MIC415,Optical,7119.91
+Spectrometer,2024-02-17,SPE975,Electronic,3678.75
+Hot Plate,2024-02-26,HOT298,Heating,9992.59
+Centrifuge,2024-11-29,CEN648,Mechanical,5340.11
+Burette,2024-03-02,BUR343,Optical,623.21
+Burette,2023-11-03,BUR330,Optical,3729.63
+Pipette,2024-11-01,PIP267,Manual,7537.75
+Centrifuge,2023-06-14,CEN205,Mechanical,4099.28
+Pipette,2024-01-03,PIP708,Manual,8520.59
+Spectrometer,2023-05-19,SPE123,Electronic,1021.96
+Microscope,2024-10-11,MIC667,Optical,9795.48
+Pipette,2023-06-22,PIP568,Manual,2172.34
+Hot Plate,2023-10-25,HOT209,Heating,3968.07
+Pipette,2024-05-05,PIP237,Manual,8042.36
+Hot Plate,2023-06-29,HOT260,Heating,5526.89
+Spectrometer,2023-05-01,SPE508,Electronic,241.97
+Microscope,2023-05-09,MIC547,Optical,4063.53
+Hot Plate,2024-12-10,HOT316,Heating,9385.67
+Burette,2024-07-11,BUR214,Optical,4016.27
+Microscope,2023-09-26,MIC524,Optical,9037.54
+Burette,2023-05-24,BUR961,Optical,8471.26
+Centrifuge,2024-07-22,CEN916,Mechanical,5099.12
+Spectrometer,2023-09-04,SPE878,Electronic,7771.11
+Microscope,2023-12-17,MIC264,Optical,5498.53
+Microscope,2023-08-18,MIC261,Optical,7187.23
+Centrifuge,2023-09-15,CEN914,Mechanical,3466.39
+Microscope,2024-03-24,MIC228,Optical,2153.24
+Microscope,2023-07-22,MIC202,Optical,4384.16
+Pipette,2024-02-21,PIP808,Manual,1115.14
+Pipette,2024-08-15,PIP773,Manual,4575.9
+Microscope,2025-03-19,MIC955,Optical,6631.09
+Burette,2024-07-13,BUR174,Optical,8671.77
+Pipette,2024-03-09,PIP494,Manual,5601.46
+Microscope,2024-11-04,MIC305,Optical,4201.64
+Centrifuge,2024-03-08,CEN838,Mechanical,5658.85
+Burette,2023-11-15,BUR866,Optical,4490.53
+Pipette,2023-05-11,PIP553,Manual,6186.11
+Burette,2024-10-05,BUR149,Optical,1465.12
+Hot Plate,2024-02-18,HOT550,Heating,6904.53
+Microscope,2023-06-13,MIC771,Optical,8974.37
+Spectrometer,2024-09-28,SPE697,Electronic,3225.22
+Hot Plate,2025-01-04,HOT444,Heating,6838.74
+Hot Plate,2024-11-17,HOT494,Heating,7595.12
+Centrifuge,2023-12-04,CEN182,Mechanical,1876.93
+Microscope,2023-06-18,MIC595,Optical,2810.57
+Hot Plate,2024-03-23,HOT100,Heating,4916.91
+Spectrometer,2024-08-09,SPE713,Electronic,8713.79
+Hot Plate,2023-08-22,HOT936,Heating,164.25
+Pipette,2023-11-16,PIP380,Manual,3432.95
+Spectrometer,2024-02-21,SPE955,Electronic,1473.42
+Centrifuge,2023-06-12,CEN901,Mechanical,4111.57
+Hot Plate,2024-11-11,HOT983,Heating,6952.59
+Microscope,2024-02-13,MIC859,Optical,6543.01
+Microscope,2024-01-17,MIC480,Optical,2638.47
+Microscope,2023-10-21,MIC928,Optical,7484.52
+Burette,2024-02-19,BUR928,Optical,3384.3
+Hot Plate,2024-12-13,HOT579,Heating,7506.2
+Hot Plate,2023-07-21,HOT972,Heating,2972.18
+Microscope,2024-08-17,MIC647,Optical,7899.89
+Pipette,2025-01-19,PIP792,Manual,8562.79
+Microscope,2024-03-03,MIC663,Optical,9356.98
+Centrifuge,2024-10-17,CEN600,Mechanical,5188.41
+Hot Plate,2024-12-02,HOT315,Heating,8654.7
+Hot Plate,2024-05-16,HOT952,Heating,7822.82
+Spectrometer,2024-09-03,SPE633,Electronic,5453.73
+Pipette,2024-03-19,PIP160,Manual,1890.26
+Spectrometer,2024-05-21,SPE414,Electronic,5161.48
+Hot Plate,2024-02-14,HOT251,Heating,6531.37
+Centrifuge,2025-01-25,CEN110,Mechanical,7754.01
+Spectrometer,2024-05-20,SPE395,Electronic,8832.19
+Hot Plate,2025-02-20,HOT547,Heating,6586.94
+Microscope,2024-06-25,MIC718,Optical,2980.3
+Spectrometer,2025-03-24,SPE504,Electronic,4574.8
+Hot Plate,2024-01-03,HOT294,Heating,3563.49
+Spectrometer,2024-06-18,SPE797,Electronic,7805.31
+Spectrometer,2024-05-07,SPE742,Electronic,1096.22
+Burette,2024-10-26,BUR307,Optical,1144.43
+Microscope,2024-03-21,MIC753,Optical,7335.98
+Burette,2024-04-27,BUR582,Optical,739.83
+Spectrometer,2023-07-31,SPE115,Electronic,2767.63
+Centrifuge,2025-03-29,CEN765,Mechanical,4950.38
+Microscope,2023-08-15,MIC650,Optical,8652.16
+Pipette,2024-07-07,PIP688,Manual,1127.24
+Hot Plate,2024-09-12,HOT922,Heating,6871.04
+Hot Plate,2025-01-09,HOT380,Heating,459.87
+Spectrometer,2023-08-08,SPE674,Electronic,1013.72
+Microscope,2023-10-24,MIC153,Optical,8122.58
+Burette,2023-10-22,BUR547,Optical,1048.38
+Centrifuge,2024-08-30,CEN649,Mechanical,5142.92
+Spectrometer,2024-08-18,SPE788,Electronic,4090.19
+Hot Plate,2024-10-14,HOT562,Heating,5691.59
+Microscope,2024-01-27,MIC547,Optical,1054.57
+Microscope,2024-08-25,MIC415,Optical,8403.48
+Pipette,2023-07-26,PIP121,Manual,4638.97
+Centrifuge,2023-09-03,CEN476,Mechanical,3223.04
+Pipette,2024-05-30,PIP214,Manual,3196.98
+Spectrometer,2024-11-24,SPE602,Electronic,829.88
+Pipette,2023-12-13,PIP790,Manual,6482.95
+Spectrometer,2023-08-18,SPE834,Electronic,4623.47
+Centrifuge,2024-01-11,CEN883,Mechanical,185.14
+Microscope,2024-03-05,MIC387,Optical,4907.04
+Spectrometer,2023-12-04,SPE288,Electronic,8153.32
+Burette,2024-12-05,BUR988,Optical,2910.53
+Spectrometer,2023-07-15,SPE697,Electronic,9625.14
+Centrifuge,2024-03-22,CEN783,Mechanical,401.92
+Burette,2023-06-01,BUR301,Optical,5411.6
+Spectrometer,2024-11-08,SPE332,Electronic,8161.36
+Spectrometer,2024-02-28,SPE276,Electronic,4588.64
+Burette,2025-02-19,BUR834,Optical,709.19
+Centrifuge,2025-03-06,CEN902,Mechanical,632.71
+Spectrometer,2024-12-03,SPE506,Electronic,9702.37
+Pipette,2024-01-28,PIP506,Manual,6616.17
+Pipette,2023-05-16,PIP360,Manual,9110.34
+Centrifuge,2025-02-16,CEN802,Mechanical,1961.16
+Burette,2024-04-11,BUR167,Optical,579.56
+Spectrometer,2025-03-25,SPE935,Electronic,6988.32
+Microscope,2024-02-16,MIC164,Optical,6543.04
+Centrifuge,2023-06-03,CEN568,Mechanical,5959.57
+Burette,2024-08-12,BUR528,Optical,6202.07
+Hot Plate,2023-08-08,HOT414,Heating,389.03
+Hot Plate,2023-09-07,HOT427,Heating,2115.57
+Centrifuge,2023-09-18,CEN223,Mechanical,7335.89
+Microscope,2024-09-11,MIC314,Optical,9126.77
+Centrifuge,2024-05-11,CEN963,Mechanical,7045.69
+Hot Plate,2024-05-01,HOT129,Heating,6648.7
+Microscope,2024-09-17,MIC513,Optical,8145.37
+Hot Plate,2024-03-15,HOT555,Heating,5232.54
+Hot Plate,2023-11-01,HOT763,Heating,7526.08
+Centrifuge,2024-11-03,CEN250,Mechanical,9663.39
+Centrifuge,2024-06-20,CEN772,Mechanical,3377.8
+Hot Plate,2024-06-16,HOT293,Heating,6150.93
+Centrifuge,2025-01-03,CEN120,Mechanical,2584.62
+Burette,2023-09-04,BUR238,Optical,9144.59
+Spectrometer,2024-02-12,SPE514,Electronic,6134.15
+Burette,2025-03-02,BUR537,Optical,4710.1
+Microscope,2023-09-17,MIC104,Optical,7237.21
+Pipette,2024-11-11,PIP291,Manual,8082.27
+Pipette,2024-07-06,PIP510,Manual,8534.15
+Burette,2025-01-01,BUR442,Optical,9338.99
+Centrifuge,2023-07-12,CEN135,Mechanical,8774.64
+Pipette,2025-03-11,PIP684,Manual,438.93
+Hot Plate,2024-04-08,HOT811,Heating,6755.21
+Centrifuge,2023-06-25,CEN172,Mechanical,3589.52
+Spectrometer,2023-09-30,SPE258,Electronic,820.5
+Burette,2025-03-16,BUR155,Optical,1858.81
+Pipette,2024-08-24,PIP522,Manual,8342.05
+Spectrometer,2023-10-13,SPE187,Electronic,6894.83
+Burette,2024-05-10,BUR354,Optical,2835.05
+Pipette,2024-09-21,PIP889,Manual,2975.3
+Pipette,2024-07-13,PIP296,Manual,6897.16
+Centrifuge,2023-09-24,CEN727,Mechanical,3837.15
+Spectrometer,2024-11-06,SPE282,Electronic,5818.03
+Pipette,2023-10-14,PIP532,Manual,3941.01
+Microscope,2025-01-03,MIC746,Optical,7949.24
+Pipette,2023-05-05,PIP702,Manual,5209.86
+Burette,2024-09-23,BUR681,Optical,8572.18
+Pipette,2025-02-25,PIP599,Manual,914.46
+Microscope,2025-01-09,MIC181,Optical,7521.19
+Pipette,2023-08-07,PIP387,Manual,4310.57
+Spectrometer,2023-06-07,SPE824,Electronic,7221.57
+Microscope,2024-12-23,MIC279,Optical,2540.51
+Centrifuge,2024-07-30,CEN455,Mechanical,2178.27
+Microscope,2023-10-20,MIC843,Optical,8627.74
+Burette,2024-09-27,BUR595,Optical,9773.66
+Spectrometer,2024-11-05,SPE311,Electronic,4431.7
+Hot Plate,2023-05-20,HOT445,Heating,8305.1
+Microscope,2024-11-14,MIC371,Optical,8212.74
+Pipette,2025-02-21,PIP761,Manual,9357.78
+Burette,2024-11-28,BUR921,Optical,7814.91
+Microscope,2024-09-09,MIC773,Optical,606.19
+Microscope,2023-07-26,MIC112,Optical,4265.48
+Pipette,2023-12-08,PIP781,Manual,1009.11
+Microscope,2024-04-01,MIC730,Optical,9036.99
+Burette,2023-09-07,BUR632,Optical,9181.55
+Spectrometer,2024-02-29,SPE230,Electronic,9176.55
+Pipette,2025-01-08,PIP275,Manual,1049.3
+Spectrometer,2023-05-10,SPE166,Electronic,497.87
+Spectrometer,2024-01-10,SPE559,Electronic,6929.99
+Pipette,2024-07-12,PIP572,Manual,2921.08
+Burette,2023-11-25,BUR646,Optical,2207.42
+Microscope,2024-12-13,MIC469,Optical,6023.75
+Microscope,2024-09-01,MIC166,Optical,3753.34
+Hot Plate,2024-06-02,HOT134,Heating,4142.86
+Hot Plate,2023-08-11,HOT734,Heating,3306.82
+Centrifuge,2023-09-10,CEN448,Mechanical,6115.46
+Microscope,2024-06-21,MIC657,Optical,9636.5
+Microscope,2023-09-27,MIC765,Optical,7418.52
+Burette,2024-02-22,BUR826,Optical,9937.95
+Burette,2025-03-04,BUR874,Optical,3065.11
+Centrifuge,2024-01-19,CEN554,Mechanical,6933.8
+Pipette,2024-03-30,PIP679,Manual,641.41
+Microscope,2024-02-01,MIC533,Optical,8245.69
+Burette,2024-09-18,BUR228,Optical,4305.02
+Spectrometer,2025-02-14,SPE829,Electronic,6462.98
+Hot Plate,2023-06-17,HOT262,Heating,5347.06
+Burette,2023-12-27,BUR745,Optical,990.4
+Centrifuge,2025-01-18,CEN824,Mechanical,3325.5
+Microscope,2024-07-11,MIC379,Optical,8081.41
+Pipette,2023-06-02,PIP304,Manual,3526.76
+Centrifuge,2024-08-25,CEN371,Mechanical,3509.79
+Pipette,2023-12-18,PIP614,Manual,1427.45
+Hot Plate,2023-05-16,HOT131,Heating,747.19
+Burette,2023-07-23,BUR872,Optical,6157.89
+Burette,2023-07-01,BUR521,Optical,1515.98
+Hot Plate,2023-09-26,HOT286,Heating,3767.0
+Microscope,2024-01-12,MIC392,Optical,4423.95
+Burette,2024-03-05,BUR618,Optical,7626.69
+Spectrometer,2025-01-15,SPE622,Electronic,6393.47
+Centrifuge,2024-02-14,CEN423,Mechanical,8250.96
+Microscope,2023-10-01,MIC374,Optical,9127.92
+Centrifuge,2023-11-10,CEN609,Mechanical,4802.3
+Spectrometer,2025-03-06,SPE397,Electronic,5478.55
+Hot Plate,2024-09-17,HOT531,Heating,6157.44
+Hot Plate,2023-12-21,HOT586,Heating,7773.07
+Microscope,2023-10-29,MIC117,Optical,9771.97
+Pipette,2023-06-25,PIP175,Manual,6231.21
+Pipette,2024-04-10,PIP272,Manual,763.73
+Hot Plate,2023-11-30,HOT237,Heating,3240.88
+Pipette,2025-03-19,PIP476,Manual,9643.51
+Hot Plate,2024-08-11,HOT203,Heating,482.36
+Pipette,2024-06-15,PIP650,Manual,2498.31
+Microscope,2023-06-12,MIC721,Optical,9341.99
+Microscope,2024-02-23,MIC534,Optical,9759.93
+Burette,2024-12-03,BUR334,Optical,1418.08
+Hot Plate,2023-05-30,HOT945,Heating,8337.21
+Pipette,2023-09-28,PIP548,Manual,6886.77
+Hot Plate,2024-06-19,HOT636,Heating,7709.88
+Hot Plate,2024-09-27,HOT842,Heating,1220.56
+Hot Plate,2023-11-09,HOT573,Heating,8992.36
+Burette,2023-05-23,BUR636,Optical,2599.08
+Pipette,2023-07-16,PIP401,Manual,2891.9
+Spectrometer,2023-07-29,SPE808,Electronic,5287.77
+Hot Plate,2025-03-08,HOT377,Heating,647.94
+Pipette,2023-05-30,PIP151,Manual,9782.32
+Burette,2024-08-16,BUR288,Optical,7025.08
+Microscope,2024-01-19,MIC650,Optical,5303.47
+Pipette,2025-03-17,PIP803,Manual,6910.99
+Burette,2023-06-07,BUR656,Optical,1703.94
+Spectrometer,2024-04-13,SPE814,Electronic,3240.61
+Burette,2023-09-16,BUR959,Optical,6149.95
+Microscope,2024-05-06,MIC128,Optical,3385.33
+Microscope,2024-01-05,MIC161,Optical,4274.55
+Pipette,2024-03-27,PIP468,Manual,6647.82
+Hot Plate,2023-09-03,HOT140,Heating,5425.64
+Pipette,2024-04-21,PIP633,Manual,9857.23
+Pipette,2024-11-15,PIP338,Manual,5722.81
+Centrifuge,2023-07-08,CEN932,Mechanical,5507.27
+Hot Plate,2024-08-26,HOT614,Heating,5601.62
+Burette,2024-02-11,BUR393,Optical,2074.15
+Centrifuge,2023-05-22,CEN911,Mechanical,7724.37
+Microscope,2023-11-24,MIC985,Optical,2737.25
+Pipette,2024-08-14,PIP593,Manual,1344.76
+Pipette,2024-04-03,PIP583,Manual,7473.83
+Pipette,2024-07-29,PIP752,Manual,6128.91
+Pipette,2024-02-22,PIP815,Manual,4173.59
+Centrifuge,2024-09-10,CEN790,Mechanical,1521.31
+Microscope,2024-09-18,MIC940,Optical,5874.59
+Pipette,2023-12-29,PIP255,Manual,3939.49
+Hot Plate,2024-05-20,HOT379,Heating,9708.49
+Burette,2023-05-31,BUR519,Optical,5401.74
+Burette,2025-03-05,BUR317,Optical,7362.19
+Microscope,2023-07-10,MIC267,Optical,6018.33
+Hot Plate,2025-03-27,HOT755,Heating,5178.15
+Centrifuge,2024-10-16,CEN781,Mechanical,5995.73
+Pipette,2025-03-28,PIP155,Manual,8199.58
+Hot Plate,2025-02-24,HOT769,Heating,930.81
+Centrifuge,2025-02-26,CEN635,Mechanical,2661.15
+Microscope,2024-08-17,MIC384,Optical,8990.65
+Pipette,2023-10-04,PIP475,Manual,6986.45
+Burette,2024-04-24,BUR463,Optical,7490.82
+Hot Plate,2024-10-08,HOT825,Heating,6009.93
+Burette,2024-12-24,BUR303,Optical,9609.05
+Centrifuge,2024-01-01,CEN417,Mechanical,8204.98
+Hot Plate,2024-10-01,HOT617,Heating,6548.14
+Spectrometer,2024-09-26,SPE268,Electronic,4620.9
+Pipette,2024-05-04,PIP497,Manual,1803.32
+Burette,2024-10-27,BUR646,Optical,4380.25
+Spectrometer,2023-08-29,SPE614,Electronic,7266.26
+Spectrometer,2023-08-09,SPE360,Electronic,8232.74
+Hot Plate,2024-05-24,HOT539,Heating,1856.08
+Burette,2024-11-26,BUR421,Optical,293.2
+Hot Plate,2024-02-04,HOT208,Heating,8993.87
+Centrifuge,2025-01-25,CEN109,Mechanical,3144.29
+Burette,2024-08-16,BUR981,Optical,3171.65
+Spectrometer,2024-05-28,SPE817,Electronic,9899.93
+Centrifuge,2024-02-14,CEN511,Mechanical,3952.44
+Microscope,2023-07-21,MIC264,Optical,4546.1
+Centrifuge,2024-02-10,CEN468,Mechanical,2693.64
+Microscope,2024-05-03,MIC324,Optical,3030.24
+Pipette,2024-12-28,PIP775,Manual,2909.14
+Centrifuge,2025-02-14,CEN403,Mechanical,3611.59
+Burette,2023-10-09,BUR763,Optical,5115.21
+Spectrometer,2023-09-26,SPE688,Electronic,1306.62
+Hot Plate,2024-12-20,HOT697,Heating,6510.7
+Spectrometer,2023-11-15,SPE592,Electronic,7986.98
+Hot Plate,2024-03-17,HOT579,Heating,6596.91
+Spectrometer,2023-09-14,SPE722,Electronic,5036.95
+Pipette,2024-01-19,PIP186,Manual,2379.23
+Centrifuge,2023-08-22,CEN290,Mechanical,2401.57
+Microscope,2024-06-05,MIC218,Optical,9369.7
+Microscope,2024-10-01,MIC866,Optical,7506.05
+Hot Plate,2023-10-19,HOT385,Heating,1191.79
+Microscope,2025-03-14,MIC992,Optical,9988.48
+Microscope,2024-04-01,MIC466,Optical,8436.17
+Spectrometer,2024-02-17,SPE482,Electronic,7548.74
+Microscope,2024-08-17,MIC144,Optical,2297.35
+Microscope,2024-07-26,MIC522,Optical,7669.94
+Burette,2025-03-06,BUR777,Optical,2286.96
+Pipette,2023-05-12,PIP175,Manual,9755.25
+Centrifuge,2024-07-01,CEN919,Mechanical,6906.82
+Burette,2023-11-21,BUR927,Optical,9324.29
+Pipette,2025-01-16,PIP860,Manual,2015.81
+Centrifuge,2024-11-15,CEN807,Mechanical,7074.07
+Microscope,2024-08-16,MIC999,Optical,7987.7
+Pipette,2023-11-04,PIP243,Manual,7014.87
+Burette,2024-12-12,BUR646,Optical,8761.38
+Spectrometer,2023-12-02,SPE221,Electronic,529.19
+Centrifuge,2024-06-06,CEN862,Mechanical,478.73
+Spectrometer,2023-08-02,SPE175,Electronic,362.35
+Microscope,2024-10-29,MIC919,Optical,4020.07
+Pipette,2024-02-04,PIP204,Manual,7050.01
+Pipette,2023-07-13,PIP206,Manual,9288.58
+Pipette,2023-07-29,PIP262,Manual,2009.65
+Microscope,2024-01-29,MIC343,Optical,2193.47
+Hot Plate,2024-07-19,HOT744,Heating,8612.7
+Burette,2024-01-24,BUR300,Optical,5592.38
+Microscope,2024-03-05,MIC263,Optical,7350.36
+Centrifuge,2023-06-02,CEN510,Mechanical,4206.38
+Microscope,2024-08-13,MIC364,Optical,9554.66
+Microscope,2024-03-05,MIC891,Optical,8163.11
+Spectrometer,2024-08-26,SPE363,Electronic,4011.48
+Hot Plate,2024-04-25,HOT938,Heating,3874.4
+Microscope,2025-03-19,MIC927,Optical,2321.15
+Pipette,2024-12-15,PIP933,Manual,7752.81
+Burette,2024-01-07,BUR750,Optical,4745.9
+Spectrometer,2023-11-07,SPE774,Electronic,2654.61
+Centrifuge,2024-10-20,CEN730,Mechanical,593.47
+Spectrometer,2024-02-13,SPE409,Electronic,195.23
+Centrifuge,2024-05-29,CEN541,Mechanical,5887.6
+Centrifuge,2024-01-21,CEN278,Mechanical,4982.49
+Centrifuge,2024-12-09,CEN547,Mechanical,3305.87
+Spectrometer,2024-10-18,SPE212,Electronic,9841.28
+Microscope,2024-08-08,MIC371,Optical,5565.74
+Burette,2023-05-08,BUR528,Optical,1050.71
+Hot Plate,2023-10-06,HOT811,Heating,2137.44
+Spectrometer,2023-09-21,SPE184,Electronic,6441.94
+Burette,2024-12-21,BUR573,Optical,9244.9
+Burette,2025-02-20,BUR207,Optical,9912.16
+Burette,2024-10-18,BUR825,Optical,2054.99
+Pipette,2023-05-14,PIP218,Manual,6493.05
+Pipette,2024-05-01,PIP925,Manual,5235.15
+Centrifuge,2024-07-21,CEN674,Mechanical,5656.48
+Burette,2025-03-22,BUR967,Optical,7918.65
+Burette,2024-06-14,BUR304,Optical,6588.92
+Centrifuge,2024-09-14,CEN685,Mechanical,3198.57
+Centrifuge,2024-09-24,CEN587,Mechanical,6057.38
+Centrifuge,2025-03-20,CEN672,Mechanical,3865.41
+Burette,2025-02-22,BUR299,Optical,3955.51
+Pipette,2024-04-19,PIP811,Manual,1797.58
+Hot Plate,2023-10-20,HOT221,Heating,5043.03
+Microscope,2023-08-05,MIC919,Optical,7398.88
+Burette,2024-02-10,BUR123,Optical,1844.16
+Microscope,2024-04-17,MIC112,Optical,6457.15
+Centrifuge,2023-05-14,CEN527,Mechanical,3289.81
+Hot Plate,2024-11-08,HOT734,Heating,4639.5
+Pipette,2023-08-02,PIP838,Manual,1255.73
+Burette,2024-08-28,BUR680,Optical,1070.24
+Centrifuge,2024-01-14,CEN489,Mechanical,459.4
+Burette,2023-07-13,BUR116,Optical,6750.8
+Spectrometer,2024-09-07,SPE350,Electronic,5094.58
+Microscope,2025-02-27,MIC675,Optical,4728.49
+Burette,2024-10-05,BUR494,Optical,236.85
+Burette,2023-05-28,BUR406,Optical,3053.8
+Microscope,2025-01-08,MIC615,Optical,1309.77
+Hot Plate,2024-06-02,HOT915,Heating,6270.52
+Centrifuge,2024-08-07,CEN555,Mechanical,7738.99
+Centrifuge,2023-06-16,CEN947,Mechanical,5578.69
+Hot Plate,2023-10-23,HOT935,Heating,7515.07
+Microscope,2023-12-01,MIC608,Optical,1356.17
+Pipette,2023-12-30,PIP120,Manual,7454.46
+Centrifuge,2023-06-16,CEN875,Mechanical,7027.06
+Pipette,2024-06-11,PIP575,Manual,5025.36
+Spectrometer,2024-05-03,SPE144,Electronic,9639.47
+Hot Plate,2024-03-05,HOT736,Heating,2832.08
+Spectrometer,2025-03-26,SPE828,Electronic,1777.5
+Hot Plate,2023-05-16,HOT100,Heating,9857.11
+Centrifuge,2024-04-01,CEN991,Mechanical,9007.03
+Pipette,2024-07-03,PIP925,Manual,4204.63
+Spectrometer,2024-06-03,SPE582,Electronic,6768.25
+Microscope,2023-05-01,MIC195,Optical,5607.86
+Microscope,2023-09-20,MIC743,Optical,7128.17
+Hot Plate,2024-11-18,HOT129,Heating,1646.16
+Pipette,2023-11-21,PIP931,Manual,8321.85
+Centrifuge,2024-10-27,CEN336,Mechanical,9047.55
+Burette,2023-05-07,BUR576,Optical,8887.63
+Centrifuge,2025-01-15,CEN171,Mechanical,7119.84
+Burette,2023-05-05,BUR135,Optical,8716.33
+Centrifuge,2023-08-09,CEN220,Mechanical,6984.39
+Microscope,2023-05-05,MIC113,Optical,1890.73
+Hot Plate,2025-01-24,HOT497,Heating,4973.39
+Burette,2023-09-24,BUR932,Optical,8719.32
+Spectrometer,2024-03-31,SPE588,Electronic,1197.36
+Pipette,2023-07-22,PIP417,Manual,5960.47
+Microscope,2024-01-12,MIC105,Optical,8027.26
+Centrifuge,2025-03-07,CEN163,Mechanical,5573.31
+Centrifuge,2023-07-17,CEN410,Mechanical,5522.57
+Hot Plate,2024-08-08,HOT370,Heating,8852.48
+Hot Plate,2023-10-10,HOT997,Heating,2626.81
+Hot Plate,2024-03-26,HOT237,Heating,1119.41
+Burette,2024-04-13,BUR139,Optical,5283.55
+Hot Plate,2024-06-19,HOT484,Heating,4486.69
+Pipette,2023-09-21,PIP222,Manual,7118.71
+Burette,2025-03-23,BUR774,Optical,536.91
+Hot Plate,2024-10-24,HOT952,Heating,4764.41
+Spectrometer,2024-03-23,SPE492,Electronic,5890.94
+Pipette,2023-11-18,PIP334,Manual,9207.25
+Hot Plate,2023-07-02,HOT351,Heating,8052.75
+Burette,2023-05-30,BUR757,Optical,4098.1
+Pipette,2025-02-14,PIP633,Manual,7460.14
+Hot Plate,2024-06-21,HOT438,Heating,1079.15
+Pipette,2024-03-08,PIP482,Manual,6563.78
+Pipette,2025-02-25,PIP949,Manual,1997.58
+Pipette,2024-01-08,PIP156,Manual,9529.37
+Microscope,2024-09-11,MIC998,Optical,4118.09
+Pipette,2024-04-18,PIP742,Manual,7100.04
+Centrifuge,2024-04-12,CEN899,Mechanical,3039.23
+Hot Plate,2024-08-10,HOT329,Heating,9973.03
+Pipette,2025-02-19,PIP104,Manual,3474.39
+Microscope,2024-06-16,MIC950,Optical,4789.18
+Pipette,2024-03-19,PIP422,Manual,2332.62
+Spectrometer,2024-04-15,SPE969,Electronic,7313.32
+Spectrometer,2024-09-08,SPE953,Electronic,6654.24
+Centrifuge,2023-10-17,CEN992,Mechanical,7410.76
+Pipette,2023-10-31,PIP811,Manual,532.19
+Pipette,2025-01-23,PIP501,Manual,4923.96
+Hot Plate,2024-08-06,HOT200,Heating,1904.21
+Burette,2023-10-23,BUR223,Optical,2987.41
+Microscope,2024-05-23,MIC643,Optical,6868.77
+Centrifuge,2024-01-25,CEN761,Mechanical,4888.04
+Pipette,2024-05-02,PIP189,Manual,1186.11
+Burette,2023-09-01,BUR678,Optical,4898.38
+Microscope,2023-06-26,MIC459,Optical,9728.96
+Pipette,2024-01-17,PIP389,Manual,7248.33
+Microscope,2025-01-03,MIC273,Optical,3390.15
+Microscope,2024-02-09,MIC630,Optical,3945.53
+Microscope,2025-02-26,MIC967,Optical,4062.77
+Centrifuge,2024-02-26,CEN379,Mechanical,302.65
+Burette,2023-07-18,BUR602,Optical,5459.04
+Centrifuge,2024-02-11,CEN559,Mechanical,569.21
+Pipette,2023-08-15,PIP894,Manual,9594.9
+Centrifuge,2024-05-18,CEN184,Mechanical,3112.46
+Microscope,2024-08-27,MIC529,Optical,3047.52
+Spectrometer,2024-05-20,SPE728,Electronic,139.2
+Hot Plate,2025-03-23,HOT269,Heating,8609.87
+Burette,2024-12-19,BUR263,Optical,1938.97
+Microscope,2023-05-29,MIC491,Optical,8355.41
+Burette,2024-04-17,BUR634,Optical,5490.47
+Hot Plate,2025-03-26,HOT757,Heating,3102.83
+Hot Plate,2024-02-27,HOT560,Heating,3918.53
+Pipette,2024-09-08,PIP720,Manual,6552.72
+Microscope,2024-06-25,MIC772,Optical,2863.53
+Burette,2024-04-20,BUR582,Optical,5445.3
+Burette,2024-07-17,BUR663,Optical,1341.09
+Pipette,2023-12-27,PIP103,Manual,1056.07
+Centrifuge,2023-05-16,CEN695,Mechanical,1929.99
+Microscope,2024-01-23,MIC193,Optical,8530.28
+Spectrometer,2023-05-22,SPE767,Electronic,2114.41
+Pipette,2024-03-16,PIP199,Manual,2566.42
+Pipette,2024-08-15,PIP258,Manual,5164.37
+Pipette,2023-12-30,PIP174,Manual,7597.07
+Hot Plate,2023-12-17,HOT371,Heating,9990.62
+Microscope,2024-06-14,MIC837,Optical,1867.31
+Centrifuge,2024-03-05,CEN232,Mechanical,9226.44
+Pipette,2023-10-17,PIP101,Manual,3791.12
+Microscope,2024-12-13,MIC705,Optical,5344.79
+Microscope,2024-04-14,MIC964,Optical,9193.57
+Burette,2023-11-02,BUR657,Optical,1561.7
+Pipette,2023-08-13,PIP251,Manual,8762.57
+Burette,2025-02-23,BUR582,Optical,308.98
+Pipette,2025-01-28,PIP152,Manual,6681.85
+Centrifuge,2024-03-24,CEN527,Mechanical,6854.21
+Spectrometer,2024-11-02,SPE182,Electronic,2517.53
+Hot Plate,2024-07-06,HOT934,Heating,4993.39
+Spectrometer,2023-10-31,SPE186,Electronic,8563.38
+Pipette,2025-03-07,PIP834,Manual,192.98
+Burette,2024-05-21,BUR371,Optical,2541.97
+Burette,2023-05-20,BUR224,Optical,8333.32
+Spectrometer,2023-07-10,SPE338,Electronic,7589.42
+Pipette,2025-03-29,PIP311,Manual,9899.72
+Centrifuge,2023-12-30,CEN799,Mechanical,4508.96
+Spectrometer,2024-11-06,SPE727,Electronic,5574.61
+Spectrometer,2023-05-15,SPE351,Electronic,423.77
+Microscope,2023-07-26,MIC756,Optical,6415.18
+Hot Plate,2025-01-30,HOT495,Heating,3301.8
+Microscope,2025-02-13,MIC910,Optical,9370.7
+Centrifuge,2023-07-24,CEN492,Mechanical,9760.42
+Spectrometer,2023-07-07,SPE890,Electronic,3799.64
+Spectrometer,2024-11-07,SPE851,Electronic,323.05
+Hot Plate,2024-11-06,HOT563,Heating,377.03
+Burette,2023-07-10,BUR400,Optical,6063.59
+Hot Plate,2023-06-26,HOT155,Heating,5287.09
+Spectrometer,2024-12-30,SPE515,Electronic,432.74
+Burette,2024-10-23,BUR238,Optical,263.6
+Burette,2023-09-29,BUR120,Optical,6916.89
+Burette,2024-12-06,BUR588,Optical,9918.4
+Pipette,2024-11-07,PIP396,Manual,8901.33
+Hot Plate,2024-12-28,HOT382,Heating,2291.81
+Spectrometer,2023-12-02,SPE792,Electronic,8807.01
+Microscope,2024-08-01,MIC922,Optical,1025.98
+Spectrometer,2023-06-14,SPE128,Electronic,9504.02
+Hot Plate,2023-07-17,HOT884,Heating,2428.81
+Centrifuge,2024-11-14,CEN449,Mechanical,9615.26
+Pipette,2023-06-20,PIP647,Manual,9004.84
+Microscope,2023-09-12,MIC952,Optical,7334.1
+Spectrometer,2025-01-05,SPE848,Electronic,1147.22
+Pipette,2024-03-28,PIP826,Manual,1975.71
+Microscope,2024-01-12,MIC289,Optical,6372.62
+Microscope,2023-07-31,MIC933,Optical,9016.73
+Pipette,2024-12-17,PIP827,Manual,8447.07
+Pipette,2023-05-04,PIP169,Manual,9211.66
+Hot Plate,2024-05-01,HOT966,Heating,8798.52
+Pipette,2024-07-05,PIP745,Manual,1787.47
+Centrifuge,2023-10-19,CEN896,Mechanical,1679.56
+Pipette,2024-09-18,PIP823,Manual,2135.81
+Centrifuge,2023-07-01,CEN675,Mechanical,3117.01
+Spectrometer,2023-05-27,SPE473,Electronic,9795.33
+Burette,2025-03-02,BUR924,Optical,2084.46
+Microscope,2025-01-21,MIC497,Optical,8026.49
+Centrifuge,2024-03-16,CEN626,Mechanical,2835.0
+Pipette,2024-06-12,PIP740,Manual,7279.78
+Centrifuge,2023-11-28,CEN146,Mechanical,242.5
+Pipette,2025-01-26,PIP695,Manual,9688.69
+Pipette,2024-04-18,PIP423,Manual,9142.77
+Burette,2025-02-20,BUR232,Optical,6887.92
+Spectrometer,2024-02-12,SPE180,Electronic,7756.26
+Hot Plate,2023-12-26,HOT968,Heating,831.59
+Spectrometer,2025-03-20,SPE158,Electronic,1400.32
+Pipette,2023-05-01,PIP291,Manual,4383.19
+Hot Plate,2024-09-09,HOT305,Heating,4490.76
+Pipette,2024-09-23,PIP535,Manual,8813.97
+Microscope,2024-02-13,MIC487,Optical,1454.75
+Spectrometer,2023-09-25,SPE469,Electronic,7149.52
+Burette,2024-07-10,BUR318,Optical,1762.5
+Burette,2024-07-25,BUR986,Optical,4926.52
+Hot Plate,2024-09-07,HOT141,Heating,2217.99
+Centrifuge,2023-06-21,CEN992,Mechanical,4129.04
+Burette,2024-10-14,BUR473,Optical,507.44
+Spectrometer,2024-07-17,SPE755,Electronic,5627.33
+Hot Plate,2024-07-18,HOT111,Heating,5420.59
+Hot Plate,2025-01-11,HOT753,Heating,6948.08
+Burette,2024-11-07,BUR221,Optical,5945.1
+Pipette,2025-01-02,PIP569,Manual,8543.0
+Pipette,2024-06-22,PIP298,Manual,4822.3
+Burette,2024-01-15,BUR444,Optical,1125.65
+Microscope,2024-05-21,MIC115,Optical,9109.66
+Hot Plate,2023-05-25,HOT979,Heating,9119.26
+Hot Plate,2025-01-15,HOT566,Heating,8987.56
+Hot Plate,2024-03-01,HOT429,Heating,4424.95
+Microscope,2025-03-11,MIC932,Optical,670.54
+Pipette,2023-10-11,PIP922,Manual,6675.57
+Hot Plate,2024-09-18,HOT416,Heating,5346.6
+Centrifuge,2025-01-24,CEN689,Mechanical,8626.52
+Hot Plate,2024-03-25,HOT456,Heating,7874.57
+Hot Plate,2024-01-23,HOT786,Heating,1798.52
+Centrifuge,2023-05-30,CEN451,Mechanical,3307.35
+Pipette,2024-04-16,PIP770,Manual,4655.12
+Microscope,2025-03-02,MIC884,Optical,8990.99
+Spectrometer,2025-01-17,SPE294,Electronic,9027.54
+Spectrometer,2025-01-16,SPE859,Electronic,1727.21
+Burette,2025-03-16,BUR858,Optical,1103.29
+Centrifuge,2024-04-30,CEN949,Mechanical,6727.18
+Burette,2024-12-11,BUR953,Optical,2504.54
+Microscope,2025-01-07,MIC131,Optical,4124.5
+Burette,2023-12-08,BUR897,Optical,9076.57
+Microscope,2024-01-14,MIC358,Optical,4684.24
+Centrifuge,2024-07-02,CEN793,Mechanical,9356.17
+Spectrometer,2023-10-23,SPE541,Electronic,6308.91
+Hot Plate,2025-02-06,HOT240,Heating,9829.1
+Hot Plate,2024-09-19,HOT861,Heating,6496.11
+Hot Plate,2024-02-25,HOT917,Heating,3583.47
+Centrifuge,2023-09-09,CEN379,Mechanical,7595.39
+Microscope,2024-07-08,MIC620,Optical,4679.57
+Burette,2024-07-15,BUR967,Optical,7717.01
+Microscope,2024-09-07,MIC666,Optical,6742.45
+Hot Plate,2023-09-07,HOT818,Heating,1567.94
+Spectrometer,2024-08-15,SPE393,Electronic,4311.25
+Centrifuge,2024-03-31,CEN908,Mechanical,9607.52
+Centrifuge,2024-04-23,CEN407,Mechanical,2123.44
+Pipette,2023-10-23,PIP372,Manual,7765.9
+Centrifuge,2023-11-12,CEN972,Mechanical,6978.4
+Spectrometer,2024-02-20,SPE194,Electronic,9721.79
+Burette,2023-09-14,BUR984,Optical,2773.88
+Pipette,2024-06-18,PIP470,Manual,6554.77
+Microscope,2023-07-14,MIC988,Optical,2496.31
+Pipette,2023-05-27,PIP423,Manual,2157.53
+Hot Plate,2024-07-08,HOT258,Heating,7609.61
+Spectrometer,2024-03-06,SPE267,Electronic,9253.17
+Spectrometer,2025-01-06,SPE816,Electronic,9804.4
+Burette,2025-01-22,BUR927,Optical,7054.96
+Burette,2025-02-02,BUR481,Optical,476.47
+Microscope,2025-03-15,MIC179,Optical,4630.75
+Centrifuge,2025-01-12,CEN196,Mechanical,444.71
+Centrifuge,2023-11-28,CEN289,Mechanical,6403.97
+Burette,2024-05-28,BUR924,Optical,6784.28
+Microscope,2024-09-21,MIC858,Optical,4633.31
+Centrifuge,2024-01-27,CEN354,Mechanical,1970.98
+Spectrometer,2024-05-10,SPE885,Electronic,571.64
+Spectrometer,2024-11-27,SPE679,Electronic,1983.52
+Centrifuge,2024-07-19,CEN545,Mechanical,420.06
+Microscope,2024-08-18,MIC902,Optical,3680.71
+Pipette,2024-02-24,PIP711,Manual,1303.32
+Burette,2024-08-31,BUR112,Optical,9660.22
+Spectrometer,2024-10-30,SPE639,Electronic,1924.17
+Centrifuge,2023-07-27,CEN832,Mechanical,6833.99
+Burette,2024-05-03,BUR460,Optical,9151.83
+Spectrometer,2023-05-13,SPE384,Electronic,4232.66
+Spectrometer,2023-12-25,SPE406,Electronic,8224.67
+Spectrometer,2024-03-16,SPE415,Electronic,1814.02
+Microscope,2023-08-04,MIC671,Optical,5277.59
+Hot Plate,2023-09-07,HOT451,Heating,8100.44
+Spectrometer,2024-09-03,SPE957,Electronic,7022.6
+Burette,2024-12-11,BUR342,Optical,4073.15
+Pipette,2023-10-24,PIP810,Manual,2795.49
+Microscope,2024-10-03,MIC565,Optical,8557.72
+Pipette,2023-09-27,PIP730,Manual,9514.18
+Hot Plate,2024-01-27,HOT867,Heating,8147.43
+Microscope,2024-08-12,MIC730,Optical,6655.6
+Spectrometer,2023-06-02,SPE517,Electronic,4227.8
+Microscope,2023-11-23,MIC351,Optical,1555.06
+Pipette,2023-10-22,PIP597,Manual,4598.2
+Spectrometer,2025-01-17,SPE967,Electronic,8795.09
+Hot Plate,2025-03-29,HOT479,Heating,5548.62
+Hot Plate,2024-05-10,HOT292,Heating,1104.0
+Burette,2024-03-10,BUR249,Optical,2685.97
+Burette,2024-09-08,BUR233,Optical,4082.25
+Pipette,2025-03-17,PIP327,Manual,9790.83
+Pipette,2024-01-06,PIP561,Manual,1215.57
+Hot Plate,2023-10-12,HOT300,Heating,9636.54
+Centrifuge,2023-08-19,CEN513,Mechanical,4733.76
+Centrifuge,2025-02-11,CEN374,Mechanical,1684.48
+Microscope,2024-01-15,MIC291,Optical,3565.02
+Centrifuge,2024-01-27,CEN373,Mechanical,4272.33
+Centrifuge,2025-02-27,CEN813,Mechanical,1924.22
+Burette,2023-05-15,BUR939,Optical,6592.22
+Pipette,2024-08-28,PIP363,Manual,6874.84
+Burette,2024-05-06,BUR721,Optical,5220.55
+Centrifuge,2023-09-04,CEN289,Mechanical,8010.8
+Pipette,2023-10-04,PIP972,Manual,1074.96
+Burette,2023-10-05,BUR144,Optical,2001.69
+Burette,2025-01-13,BUR177,Optical,3983.28
+Spectrometer,2023-05-17,SPE747,Electronic,3485.46
+Microscope,2024-12-29,MIC175,Optical,4345.02
+Pipette,2024-07-17,PIP952,Manual,3678.55
+Pipette,2024-08-12,PIP829,Manual,2801.94
+Centrifuge,2024-06-01,CEN417,Mechanical,7302.53
+Pipette,2024-12-07,PIP651,Manual,3138.03
+Pipette,2024-02-09,PIP739,Manual,921.35
+Centrifuge,2024-09-24,CEN897,Mechanical,4561.4
+Centrifuge,2024-09-30,CEN648,Mechanical,4657.37
+Burette,2025-03-27,BUR660,Optical,3436.96
+Spectrometer,2024-03-17,SPE232,Electronic,5828.0
+Hot Plate,2024-07-16,HOT894,Heating,7495.89
+Microscope,2025-03-04,MIC449,Optical,4889.34
+Hot Plate,2025-01-10,HOT425,Heating,3408.44
+Hot Plate,2024-03-23,HOT894,Heating,9448.89
+Spectrometer,2024-04-28,SPE542,Electronic,6303.68
+Spectrometer,2024-11-24,SPE506,Electronic,7043.85
+Hot Plate,2023-07-12,HOT761,Heating,8384.1
+Hot Plate,2025-03-10,HOT790,Heating,4617.65
+Pipette,2024-07-11,PIP815,Manual,4994.04
+Pipette,2024-10-13,PIP598,Manual,3308.85
+Microscope,2023-07-09,MIC557,Optical,7802.74
+Hot Plate,2024-07-12,HOT608,Heating,3053.16
+Centrifuge,2024-08-23,CEN433,Mechanical,1175.17
+Microscope,2024-11-18,MIC833,Optical,7272.17
+Hot Plate,2025-03-10,HOT572,Heating,9475.31
+Centrifuge,2024-07-10,CEN127,Mechanical,5418.13
+Burette,2024-11-05,BUR232,Optical,9498.25
+Burette,2025-03-19,BUR243,Optical,4927.13
+Pipette,2024-08-14,PIP262,Manual,6608.88
+Microscope,2023-08-31,MIC320,Optical,7347.27
+Microscope,2024-03-22,MIC718,Optical,8209.8
+Hot Plate,2024-05-13,HOT899,Heating,667.01
+Pipette,2025-02-03,PIP324,Manual,9264.79
+Burette,2025-01-16,BUR407,Optical,4241.67
+Burette,2023-10-27,BUR386,Optical,8428.51
+Pipette,2025-03-27,PIP551,Manual,4135.51
+Pipette,2024-08-22,PIP677,Manual,7002.79
+Pipette,2025-02-10,PIP337,Manual,379.9
+Pipette,2023-05-16,PIP167,Manual,4588.65
+Centrifuge,2023-10-07,CEN232,Mechanical,8017.27
+Centrifuge,2023-10-16,CEN280,Mechanical,6114.83
+Microscope,2024-05-05,MIC446,Optical,178.14
+Centrifuge,2023-09-11,CEN710,Mechanical,7747.79
+Hot Plate,2025-02-28,HOT800,Heating,3315.53
+Pipette,2024-08-03,PIP644,Manual,9545.43
+Hot Plate,2025-03-16,HOT384,Heating,1560.14
+Hot Plate,2024-05-18,HOT861,Heating,5604.71
+Centrifuge,2024-12-07,CEN759,Mechanical,7856.37
+Microscope,2025-01-16,MIC241,Optical,2018.18
+Hot Plate,2023-09-06,HOT929,Heating,6668.43
+Hot Plate,2023-08-13,HOT422,Heating,5166.31
+Microscope,2023-05-16,MIC713,Optical,6184.64
+Burette,2025-01-19,BUR939,Optical,7952.93
+Pipette,2024-08-24,PIP357,Manual,2914.21
+Spectrometer,2024-06-08,SPE219,Electronic,4313.04
+Centrifuge,2024-11-11,CEN568,Mechanical,1026.26
+Hot Plate,2023-05-06,HOT901,Heating,7084.06
+Burette,2024-08-28,BUR742,Optical,9434.56
+Burette,2024-01-24,BUR338,Optical,3238.18
+Microscope,2024-09-07,MIC333,Optical,2484.32
+Spectrometer,2023-07-28,SPE987,Electronic,6354.33
+Centrifuge,2025-01-13,CEN502,Mechanical,1288.72
+Spectrometer,2023-05-23,SPE340,Electronic,3916.76
+Pipette,2024-11-24,PIP151,Manual,5943.1
+Centrifuge,2023-07-04,CEN456,Mechanical,2811.42
+Spectrometer,2024-11-29,SPE525,Electronic,1842.9
+Microscope,2024-11-16,MIC433,Optical,9579.19
+Microscope,2024-06-06,MIC754,Optical,2952.93
+Microscope,2023-11-03,MIC466,Optical,6494.84
+Centrifuge,2024-05-23,CEN425,Mechanical,2238.0
+Burette,2024-03-19,BUR281,Optical,1475.56
+Centrifuge,2024-11-05,CEN764,Mechanical,6707.5
+Pipette,2023-09-26,PIP668,Manual,2242.99
+Pipette,2024-09-26,PIP627,Manual,7968.99
+Centrifuge,2023-12-14,CEN452,Mechanical,7343.31
+Burette,2023-06-30,BUR680,Optical,313.24
+Centrifuge,2024-10-10,CEN471,Mechanical,8070.98
+Spectrometer,2024-08-14,SPE842,Electronic,7506.49
+Hot Plate,2024-01-11,HOT769,Heating,9440.13
+Burette,2023-05-23,BUR451,Optical,6051.03
+Spectrometer,2023-08-15,SPE433,Electronic,431.28
+Spectrometer,2024-04-10,SPE573,Electronic,8395.82
+Centrifuge,2023-06-07,CEN769,Mechanical,2824.09
+Microscope,2023-09-21,MIC689,Optical,1446.77
+Pipette,2024-12-21,PIP194,Manual,8855.78
+Centrifuge,2023-11-18,CEN215,Mechanical,8447.89
+Hot Plate,2024-09-08,HOT794,Heating,3156.8
+Hot Plate,2023-12-13,HOT713,Heating,6198.07
+Burette,2024-08-09,BUR927,Optical,1863.81
+Centrifuge,2023-11-15,CEN762,Mechanical,9330.76
+Hot Plate,2025-03-20,HOT249,Heating,9894.83
+Hot Plate,2024-04-28,HOT291,Heating,1031.37
+Pipette,2024-07-05,PIP391,Manual,8660.36
+Spectrometer,2024-11-13,SPE937,Electronic,6733.85
+Microscope,2024-11-02,MIC242,Optical,4736.75
+Spectrometer,2024-01-12,SPE724,Electronic,2795.56
+Pipette,2023-05-30,PIP909,Manual,310.94
+Spectrometer,2024-09-11,SPE806,Electronic,2459.82
+Pipette,2024-03-19,PIP411,Manual,8653.97
+Hot Plate,2025-01-30,HOT497,Heating,6358.49
+Spectrometer,2023-12-08,SPE693,Electronic,3052.78
+Burette,2024-10-01,BUR333,Optical,2356.22
+Microscope,2023-10-15,MIC924,Optical,4943.47
+Hot Plate,2024-02-12,HOT195,Heating,8918.55
+Microscope,2023-06-26,MIC479,Optical,5741.79
+Spectrometer,2023-12-07,SPE789,Electronic,7166.19
+Hot Plate,2025-01-18,HOT571,Heating,2606.13
+Centrifuge,2024-02-12,CEN854,Mechanical,2660.85
+Centrifuge,2024-04-20,CEN218,Mechanical,8310.62
+Centrifuge,2024-04-10,CEN406,Mechanical,3977.21
+Hot Plate,2025-02-23,HOT282,Heating,5573.71
+Pipette,2023-10-23,PIP349,Manual,2929.81
+Burette,2024-01-10,BUR167,Optical,4263.82
+Pipette,2023-06-09,PIP565,Manual,4542.25
+Burette,2024-01-18,BUR744,Optical,8169.0
+Burette,2023-10-21,BUR294,Optical,828.53
+Hot Plate,2023-05-07,HOT961,Heating,9193.05
+Hot Plate,2024-07-26,HOT970,Heating,4084.09
+Centrifuge,2023-08-11,CEN348,Mechanical,5212.76
+Spectrometer,2023-06-03,SPE630,Electronic,3930.96
+Hot Plate,2024-03-30,HOT590,Heating,8848.96
+Microscope,2023-11-26,MIC916,Optical,7698.84
+Hot Plate,2024-04-07,HOT949,Heating,3724.06
+Hot Plate,2023-08-17,HOT269,Heating,5992.29
+Hot Plate,2025-02-24,HOT841,Heating,9655.31
+Hot Plate,2023-07-09,HOT164,Heating,8101.86
+Hot Plate,2023-12-22,HOT301,Heating,8720.46
+Microscope,2023-08-03,MIC395,Optical,2314.77
+Burette,2024-03-29,BUR239,Optical,1235.91
+Burette,2024-10-27,BUR128,Optical,829.93
+Burette,2025-01-10,BUR193,Optical,8749.02
+Hot Plate,2024-05-06,HOT245,Heating,9455.33
+Spectrometer,2023-07-20,SPE910,Electronic,9313.98
+Spectrometer,2024-11-08,SPE160,Electronic,1431.01
+Centrifuge,2023-05-15,CEN440,Mechanical,141.02
+Pipette,2023-10-04,PIP785,Manual,7822.4
+Centrifuge,2025-03-21,CEN262,Mechanical,2932.75
+Pipette,2024-12-28,PIP759,Manual,5840.8
+Microscope,2025-01-11,MIC557,Optical,4514.42
+Centrifuge,2023-05-04,CEN536,Mechanical,764.7
+Spectrometer,2023-09-19,SPE166,Electronic,4846.33
+Pipette,2024-05-04,PIP707,Manual,9919.51

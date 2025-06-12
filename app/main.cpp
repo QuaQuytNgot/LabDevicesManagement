@@ -116,7 +116,8 @@ int main()
         cin.ignore();
         switch (x) {
           case 1:
-            sort_by_name(devices, device_count);
+            quicksort_by_name(devices, 0, device_count - 1);
+            display_list_by_name(devices, device_count);
             break;
           case 2:
             sort_by_category(devices, device_count);

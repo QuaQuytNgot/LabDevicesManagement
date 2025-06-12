@@ -78,7 +78,7 @@ void search_device_name(device_info a[], int size)
 {
   string name;
   cout << "Enter device's name: ";
-  cin.ignore();
+  // cin.ignore();
   getline(cin, name);
 
   bool found = false;
@@ -102,7 +102,7 @@ void search_device_ID(device_info a[], int size)
 {
   string ID;
   cout << "Enter device's ID: ";
-  cin.ignore();
+  // cin.ignore();
   getline(cin, ID);
 
   bool found = false;
@@ -150,7 +150,7 @@ void search_category(device_info a[], int size)
 {
   string category;
   cout << "Enter devices category: ";
-  cin.ignore();
+  // cin.ignore();
   getline(cin, category);
 
   bool found = false;

@@ -56,13 +56,11 @@ void print_single_devices(device_info a[], int size)
   cin.ignore();
   getline(cin, search_term);
 
-  // Standardize search term to lowercase for comparison
   string search_lower = search_term;
-  for (char &c : search_lower)
+  for (int i = 0; i < search_lower.size(); i++)
   {
-    c = static_cast<char>(tolower(static_cast<unsigned char>(c)));
+    search_lower[i] = static_cast<char>(tolower(static_cast<char>(search_lower[i])));
   }
-
   bool found = false;
   cout << "\n" << string(100, '=') << "\n";
   cout << "                    SEARCH RESULTS FOR: '" << search_term
@@ -73,16 +71,16 @@ void print_single_devices(device_info a[], int size)
   {
     string device_name_lower = a[i].name;
     string device_id_lower   = a[i].ID;
-    for (char &c : device_name_lower)
+    
+    for(int i = 0; i < device_name_lower.size(); i++)
     {
-      c = static_cast<char>(tolower(static_cast<unsigned char>(c)));
+      device_name_lower[i] = static_cast<char>(tolower(static_cast<char>(device_name_lower[i])));
     }
-    for (char &c : device_id_lower)
+    for(int i = 0; i < device_id_lower.size(); i++)
     {
-      c = static_cast<char>(tolower(static_cast<unsigned char>(c)));
+      device_id_lower[i] = static_cast<char>(tolower(static_cast<char>(device_id_lower[i])));
     }
 
-    // Check if search term matches name or ID (case insensitive)
     if (device_name_lower.find(search_lower) != string::npos ||
         device_id_lower == search_lower)
     {
