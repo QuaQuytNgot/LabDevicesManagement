@@ -59,7 +59,8 @@ void print_single_devices(device_info a[], int size)
   string search_lower = search_term;
   for (int i = 0; i < search_lower.size(); i++)
   {
-    search_lower[i] = static_cast<char>(tolower(static_cast<char>(search_lower[i])));
+    search_lower[i] = static_cast<char>(
+        tolower(static_cast<char>(search_lower[i])));
   }
   bool found = false;
   cout << "\n" << string(100, '=') << "\n";
@@ -71,14 +72,16 @@ void print_single_devices(device_info a[], int size)
   {
     string device_name_lower = a[i].name;
     string device_id_lower   = a[i].ID;
-    
-    for(int i = 0; i < device_name_lower.size(); i++)
+
+    for (int i = 0; i < device_name_lower.size(); i++)
     {
-      device_name_lower[i] = static_cast<char>(tolower(static_cast<char>(device_name_lower[i])));
+      device_name_lower[i] = static_cast<char>(
+          tolower(static_cast<char>(device_name_lower[i])));
     }
-    for(int i = 0; i < device_id_lower.size(); i++)
+    for (int i = 0; i < device_id_lower.size(); i++)
     {
-      device_id_lower[i] = static_cast<char>(tolower(static_cast<char>(device_id_lower[i])));
+      device_id_lower[i] = static_cast<char>(
+          tolower(static_cast<char>(device_id_lower[i])));
     }
 
     if (device_name_lower.find(search_lower) != string::npos ||
