@@ -1,5 +1,12 @@
 # Building with CMake
 
+## Highly Recommend
+
+```sh
+bash build.sh
+```
+Then back to see the [README](README.md) document to run.
+
 ## Build
 
 This project doesn't require any special command-line flags to build to keep
